@@ -1,38 +1,555 @@
-.App {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+  min-height: 100vh;
+}
+/* Styles for the section */
+.sec-1 {
+     /* Set your desired background color */
+    padding: 50px; /* Adjust the padding as needed */
+    text-align: center; /* Center text within the section */
+  }
+  
+  /* Styles for the section div */
+  .sec-1-div {
+    max-width: 1200px; /* Set your desired maximum width */
+    margin: 0 auto; /* Center the div horizontally */
+  }
+  
+  /* Styles for the logo image */
+  .logo-img img {
+    width: 100px; /* Set your desired width */
+    height: 100px; /* Set your desired height */
+    border-radius: 50%; /* Create a circular image with border-radius */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+  
+  /* Styles for the quotes */
+  .quotes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+    width: 60vw;
+    padding: 2rem;
+    min-height: 25vh;
+    border: 2px solid gold;
+    border-radius: 1rem;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+  .quotes-center{
+    
+    width: 80vw;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .quote-1-div{
+    
+    width: 30vw;
+    background-color: crimson;
+    padding: 0.5rem;
+    border-radius: 4rem;
+    
+  }
+  
+  .quotes-1 {
+    color: #fff;/* Set your desired text color */
+    font-size: 15px; /* Set your desired font size */
+    font-weight: bold; /* Set your desired font weight */
+  }
+  
+  .quotes-2 {
+    color :rgb(255, 255, 255);
+   
+    font-famil: Roboto, sans-serif;
+    font-size :19.2px;
+    font-weight :700;
+    
+   
+    
+  }
+  
+  /* Styles for the course main div */
+  .course-main-div {
+
+    margin-top:-2rem ;
+    padding:4rem 2rem 4rem 2rem;
+    width: 80vw;
+    box-shadow: 0 0 20px 10px rgba(44, 44, 44, 0.3);
+    
+
+  }
+  
+  /* Styles for the course inner div */
+  .courese-inner-div {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Styles for the left and right divs */
+  .left-div,
+  .right-div {
+    flex-basis: calc(50% - 20px); /* Set width for each div (50% with some spacing) */
+  }
+  
+  /* Styles for the center line */
+  .center-line {
+    width: 2px;
+    background-color: #333; /* Set your desired line color */
+    margin: 0 20px; /* Adjust the margin as needed */
+  }
+  
+  /* Styles for the left and right titles */
+  .left-title,
+  .right-title {
+    color:goldenrod; /* Set your desired text color */
+    font-size: 24px; /* Set your desired font size */
+    font-weight: bold; /* Set your desired font weight */
+    margin-bottom: 15px; /* Adjust the margin as needed */
+  }
+  
+  /* Styles for the lists in the left and right divs */
+  .left-div ul,
+  .right-div ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default list padding */
+    text-align: left; /* Align list items to the left */
+  }
+  
+  .left-div li,
+  .right-div li {
+    color: #555; /* Set your desired text color */
+    font-size: 16px; /* Set your desired font size */
+    margin-bottom: 10px; /* Adjust the margin as needed */
+  }
+  
+  
+
+  /* section-2 */
+
+  .video-titles-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .yt-title1{
+    color: goldenrod;
+  }
+  .yt-title2{
+    color: goldenrod; 
+    opacity: 0.5;
+  }
+  
+  .center-line-2 {
+    width: 10%;
+    border-bottom: 0.1px solid rgb(99, 96, 96);
+  }
+  
+  .video-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.5rem;
+  }
+  
+  iframe {
+    border-radius: 1.2rem;
+    box-shadow: 0 0 20px 10px rgba(44, 44, 44, 0.3);
+  }
+
+
+  /* section-3 */
+
+/* Style for the entire section */
+.sec-3 {
+  
+  padding: 20px;
+  background-color: rgb(255, 251, 243); /* Add border for better visibility */
+}
+
+/* Style for the features title */
+.features-title {
+  color:goldenrod;
+  font-size: 24px;
+  margin-bottom: 15px;
   text-align: center;
 }
+.feature-list{
+  width: 60%;
+  padding: 1rem;
+  background-color: rgb(39,39,39);
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 20px 10px rgba(44, 44, 44, 0.3);
+  letter-spacing: 1px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+}
+/* Style for the list items */
+.sec-3 ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.sec-3 li {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+
+  /* section-4 */
+ 
+  /* Styles for the section */
+.sec-4 {
+    background-color: #f4f4f4; /* Set your desired background color */
+    padding: 40px; /* Adjust the padding as needed */
+  }
+  
+  /* Styles for the training info div */
+  .training-info-div {
+    max-width: 800px; /* Set your desired maximum width */
+    margin: 0 auto; /* Center the div horizontally */
+  }
+  
+  /* Styles for the training heading */
+  .training-heading {
+    color: #333; /* Set your desired text color */
+    font-size: 24px; /* Set your desired font size */
+    font-weight: bold; /* Set your desired font weight */
+    text-align: center;
+  }
+  
+  /* Styles for the training targets list */
+  .training-targets {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default list padding */
+    margin-top: 20px; /* Adjust the margin as needed */
+    column-count: 2; /* Divide the list items into two columns */
+    column-gap: 20px; /* Adjust the gap between columns */
+  }
+  
+  /* Styles for individual list items */
+  .training-targets li {
+    color: #555; /* Set your desired text color */
+    font-size: 16px; /* Set your desired font size */
+    margin-bottom: 8px; /* Adjust the margin as needed */
+    background-color: #fff; /* Set background color for list items */
+    padding: 10px; /* Add padding to list items */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow to list items */
+  }
+  
+  /* Optional: Add hover effect to list items */
+  .training-targets li:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+
+  /* section-5 */
+
+  /* Styles for the section */
+.sec-5 {
+    background-color: #e6fffd; /* Set your desired background color */
+    padding: 50px; /* Adjust the padding as needed */
+  }
+  
+  /* Styles for the payment info div */
+  .payment-info-div {
+    width: 90%; /* Set your desired maximum width */
+    margin: 0 auto; /* Center the div horizontally */
+    text-align: center; /* Center text within the div */
+  }
+  
+  /* Styles for the payment title */
+  .payment-title {
+    color: #333; /* Set your desired text color */
+    font-size: 28px; /* Set your desired font size */
+    font-weight: bold; /* Set your desired font weight */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+  
+  /* Styles for the payment container */
+  .payment-container {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid red;
+    
+  }
+  
+  /* Styles for payment methods */
+  
+  
+  /* Styles for the center line */
+  .payment-center-line-forcolumn {
+    flex-basis: 100%; /* Take up full width */
+    text-align: center;
+    margin: 20px 0; /* Adjust the margin as needed */
+    color: black;
+  }
+  
+  /* Styles for payment info paragraphs */
+  .payment-info1,
+  .payment-info2 {
+    
+    color: #555; /* Set your desired text color */
+    font-size: 18px; /* Set your desired font size */
+    margin-bottom: 15px; /* Adjust the margin as needed */
+  }
+  
+  /* Styles for the payment link */
+  .payment-link {
+    color: #007bff; /* Set your desired link color */
+    text-decoration: none; /* Remove default underline */
+    font-weight: bold; /* Set your desired font weight */
+    display: inline-block;
+  }
+  
+  .payment-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  /* Optional: Add a border to the payment methods */
+  .payment-method-1,
+  .payment-method-2 {
+    background-color: #fff;
+    width: 100%;
+    border: 1px solid #ddd; /* Set your desired border color */
+    padding: 15px; /* Add padding to the methods */
+    border-radius: 10px; /* Set border radius for a rounded appearance */
+  }
+
+  /* section-6 */
+
+  /* Styles for the section */
+.sec-6 {
+    background-color: #f8f8f8; /* Set your desired background color */
+    padding: 50px; /* Adjust the padding as needed */
+    text-align: center; /* Center text within the section */
+  }
+  
+  /* Styles for the google review div */
+  .google-review-div {
+    width: 50%; /* Set your desired maximum width */
+    margin: 0 auto; /* Center the div horizontally */
+  }
+  
+  /* Styles for the google review title */
+  .google-review-title {
+    color: #333; /* Set your desired text color */
+    font-size: 28px; /* Set your desired font size */
+    font-weight: bold; /* Set your desired font weight */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+  
+  /* Styles for the google div containing the video */
+  .google-div {
+    margin-bottom: 30px; /* Adjust the margin as needed */
+  }
+  
+  /* Styles for the iframe video */
+  .google-div iframe {
+    width: 100%;
+    height: 60vh;
+  }
+  
+  /* Styles for text review div */
+  .text-review-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+  }
+  
+  /* Styles for individual text reviews */
+  .text-review {
+    max-width: 300px; /* Set your desired maximum width */
+    margin: 20px; /* Adjust the margin as needed */
+    text-align: center;
+    width: 50%;
+  }
+  
+  /* Styles for star image (you can replace this with an actual star icon) */
+  .star-img {
+    width: 20px;
+    height: 20px;
+    background-color: yellow; /* Set your desired star color */
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  
+  /* Styles for the review text */
+  .review {
+    color: #555; /* Set your desired text color */
+    font-size: 16px; /* Set your desired font size */
+  }
+  
+  /* Styles for the reviewer name */
+  .reviewer-name {
+    color: #333; /* Set your desired text color */
+    font-size: 18px; /* Set your desired font size */
+    font-weight: bold; /* Set your desired font weight */
+    margin-top: 5px; /* Adjust the margin as needed */
+  }
+
+  /* section-7 */
+
+ /* Apply styles to the section */
+.sec-7 {
+  
+  padding: 40px 0;
+}
+
+/* Style the container for video reviews */
+.video-review-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Style the heading */
+.video-review-container h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Video Review styles */
+.video-main-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns for laptop view */
+  gap: 20px;
+}
+
+.video-review-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  
+  transition: box-shadow  0.5s ease; /* Add smooth transition for hover effect */
+  transition: transform 0.5s ease;
+}
+
+.video-review-card:hover {
+  box-shadow: 0 0 10px rgba(238, 219, 219, 0.992); /* Hover effect */
+  transform: scale(1.1);
+ 
+}
+
+.reviewer-name {
+  font-weight: bold;
+}
+
+.reviewer-video {
+  margin-top: 10px;
+}
+
+.reviewer-experience {
+  margin-top: 10px;
+  color: #666;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .video-main-div {
+    grid-template-columns: 1fr; /* Single column for smaller screens */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+
+
+
+
+
+
+/* footer */
+
+/* Footer styles */
+/* Footer styles */
+footer {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 15rem; /* Adjust padding for responsiveness */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  
+}
+body {
+  margin-bottom: 80px; /* Adjust this value based on your footer height */
 }
 
-.App-link {
-  color: #61dafb;
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.price-div {
+  display: flex;
+}
+
+.price-1,
+.price-2 {
+  margin-left: 15px;
+}
+
+.price-2 h1 {
+  font-weight: 100;
+  font-size: larger;
+  text-decoration: line-through;
+}
+
+button {
+  background-color: #ff4500;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #cc3700;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    padding: 1rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .price {
+    
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  
+
+  .price-1,
+  .price-2 {
+    margin-left: 15px;
+    
   }
 }
+
+
