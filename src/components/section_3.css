@@ -1,0 +1,43 @@
+.sec-3 {
+  padding: 20px;
+  background-color: rgb(255, 251, 243); /* Add border for better visibility */
+}
+
+/* Style for the features title */
+.features-title {
+  color: goldenrod;
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.feature-list {
+  width: 60%;
+  padding: 1rem;
+  background-color: rgb(39, 39, 39);
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 20px 10px rgba(44, 44, 44, 0.3);
+  letter-spacing: 1px;
+}
+/* Style for the list items */
+.sec-3 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sec-3 li {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.more-content-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-content2 {
+  display: flex;
+  justify-content: center;
+}

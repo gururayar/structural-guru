@@ -1,0 +1,72 @@
+.sec-5 {
+  background: linear-gradient(
+    89deg,
+    rgb(21, 74, 189) 0.1%,
+    rgb(26, 138, 211) 51.5%,
+    rgb(72, 177, 234) 100.2%
+  ); /* Set your desired background color */
+  padding: 50px; /* Adjust the padding as needed */
+}
+
+/* Styles for the payment info div */
+.payment-info-div {
+  width: 90%; /* Set your desired maximum width */
+  margin: 0 auto; /* Center the div horizontally */
+  text-align: center; /* Center text within the div */
+}
+
+/* Styles for the payment title */
+.payment-title {
+  color: #333; /* Set your desired text color */
+  font-size: 28px; /* Set your desired font size */
+  font-weight: bold; /* Set your desired font weight */
+  margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+/* Styles for the payment container */
+.payment-container {
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+/* Styles for payment methods */
+
+/* Styles for the center line */
+.payment-center-line-forcolumn {
+  flex-basis: 100%; /* Take up full width */
+  text-align: center;
+  margin: 20px 0; /* Adjust the margin as needed */
+  color: black;
+}
+
+/* Styles for payment info paragraphs */
+.payment-info1,
+.payment-info2 {
+  color: #555; /* Set your desired text color */
+  font-size: 18px; /* Set your desired font size */
+  margin-bottom: 15px; /* Adjust the margin as needed */
+}
+
+/* Styles for the payment link */
+.payment-link {
+  color: #007bff; /* Set your desired link color */
+  text-decoration: none; /* Remove default underline */
+  font-weight: bold; /* Set your desired font weight */
+  display: inline-block;
+}
+
+.payment-link:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Optional: Add a border to the payment methods */
+.payment-method-1,
+.payment-method-2 {
+  background-color: #fff;
+  width: 100%;
+  border: 1px solid #ddd; /* Set your desired border color */
+  padding: 15px; /* Add padding to the methods */
+  border-radius: 10px; /* Set border radius for a rounded appearance */
+}

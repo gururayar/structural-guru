@@ -1,0 +1,58 @@
+.sec-7 {
+  padding: 40px 0;
+}
+
+/* Style the container for video reviews */
+.video-review-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Style the heading */
+.video-review-container h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Video Review styles */
+.video-main-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns for laptop view */
+  gap: 20px;
+}
+
+.video-review-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+
+  transition: box-shadow 0.5s ease; /* Add smooth transition for hover effect */
+  transition: transform 0.5s ease;
+}
+
+.video-review-card:hover {
+  box-shadow: 0 0 10px rgba(238, 219, 219, 0.992); /* Hover effect */
+  transform: scale(1.1);
+}
+
+.reviewer-name {
+  font-weight: bold;
+}
+
+.reviewer-video {
+  margin-top: 10px;
+}
+
+.reviewer-experience {
+  margin-top: 10px;
+  color: #666;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .video-main-div {
+    grid-template-columns: 1fr; /* Single column for smaller screens */
+  }
+}

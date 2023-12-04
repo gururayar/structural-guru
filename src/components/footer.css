@@ -1,0 +1,113 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  padding: 0.5rem 15rem; /* Adjust padding for responsiveness */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+body {
+  margin-bottom: 80px; /* Adjust this value based on your footer height */
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.price-div {
+  display: flex;
+  align-items: center;
+}
+
+.price-1,
+.price-2 {
+  margin-left: 15px;
+}
+
+.price-2 h1 {
+  font-weight: 100;
+  font-size: 1.3rem;
+  text-decoration: line-through;
+}
+
+.price h3 {
+  color: rgb(0, 255, 247);
+}
+
+
+/* button */
+
+button {
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(
+    243,
+    30,
+    7,
+    0.8
+  ); /* Set your desired button background color */
+  color: #fff; /* Set your desired button text color */
+  box-shadow: 0 0 10px rgba(231, 76, 60, 0.8); /* Initial box shadow */
+  transition: box-shadow 0.2s ease-in-out; /* Add a smooth transition effect */
+
+  /* Add animation for glowing effect */
+  animation: glow 1.8s infinite;
+}
+
+/* Define the keyframes for the glowing effect */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px rgba(231, 76, 60, 0.8);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(231, 76, 60, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(231, 76, 60, 0.8);
+  }
+}
+
+@keyframes glow2 {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.8);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(255, 165, 0, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.8);
+  }
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .price {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .price-1,
+  .price-2 {
+    margin-left: 15px;
+  }
+}

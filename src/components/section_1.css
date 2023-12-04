@@ -1,0 +1,120 @@
+.sec-1 {
+  /* Set your desired background color */
+  padding: 50px; /* Adjust the padding as needed */
+  text-align: center; /* Center text within the section */
+}
+
+/* Styles for the section div */
+.sec-1-div {
+  max-width: 90%; /* Set your desired maximum width */
+  margin: 0 auto; /* Center the div horizontally */
+}
+
+/* Styles for the logo image */
+.logo-img img {
+  width: 150px; /* Set your desired width */
+  height: 150px; /* Set your desired height */
+  border-radius: 50%; /* Create a circular image with border-radius */
+  margin-bottom: 20px;
+  background-color: #007bff; /* Adjust the margin as needed */
+}
+
+/* Styles for the quotes */
+.quotes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  width: 60vw;
+  padding: 2rem;
+  min-height: 25vh;
+  border: 2px solid gold;
+  border-radius: 1rem;
+  margin-bottom: 70px; /* Adjust the margin as needed */
+}
+
+.quotes-center {
+  margin-bottom: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-1-div {
+  width: 25vw;
+  background-color: crimson;
+  padding: 0.5rem;
+  border-radius: 4rem;
+}
+
+.quotes-1 {
+  color: #fff; /* Set your desired text color */
+  font-size: 15px; /* Set your desired font size */
+  font-weight: bold; /* Set your desired font weight */
+}
+
+.quotes-2 {
+  color: rgb(255, 255, 255);
+  font-family: Roboto, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+/* Styles for the course main div */
+.course-main-div {
+  margin: auto;
+  background-color: black;
+  border-radius: 1rem;
+  margin-top: -2rem;
+  padding: 4rem 2rem 4rem 2rem;
+  max-width: 90%;
+  box-shadow: 0 0 20px 10px rgba(44, 44, 44, 0.3);
+  margin-bottom: 50px;
+  /* animation: glow2 1.8s infinite; */
+}
+
+/* Styles for the course inner div */
+.courese-inner-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styles for the left and right divs */
+.left-div,
+.right-div {
+  flex-basis: calc(
+    50% - 20px
+  ); /* Set width for each div (50% with some spacing) */
+}
+
+/* Styles for the center line */
+.center-line {
+  width: 2px;
+  background-color: #333; /* Set your desired line color */
+  margin: 0 20px; /* Adjust the margin as needed */
+}
+
+/* Styles for the left and right titles */
+.left-title,
+.right-title {
+  color: goldenrod; /* Set your desired text color */
+  font-size: 24px; /* Set your desired font size */
+  font-weight: bold; /* Set your desired font weight */
+  margin-bottom: 15px; /* Adjust the margin as needed */
+}
+
+/* Styles for the lists in the left and right divs */
+.left-div ul,
+.right-div ul {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove default list padding */
+  text-align: left; /* Align list items to the left */
+}
+
+.left-div li,
+.right-div li {
+  color: rgb(215, 196, 154); /* Set your desired text color */
+  font-size: 16px; /* Set your desired font size */
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
