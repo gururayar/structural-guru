@@ -1,12 +1,14 @@
-.sec-1 {
-  /* Set your desired background color */
-  padding: 50px; /* Adjust the padding as needed */
-  text-align: center; /* Center text within the section */
-}
-
 /* Styles for the section div */
 .sec-1-div {
-  max-width: 90%; /* Set your desired maximum width */
+  padding: 50px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* Set your desired maximum width */
   margin: 0 auto; /* Center the div horizontally */
 }
 
@@ -22,26 +24,36 @@
 /* Styles for the quotes */
 .quotes {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  flex-direction: column;
   margin: 0 auto;
 
-  width: 60vw;
-  padding: 2rem;
-  min-height: 25vh;
-  border: 2px solid gold;
-  border-radius: 1rem;
-  margin-bottom: 70px; /* Adjust the margin as needed */
-}
+  width: 70%;
 
+  padding: 40px;
+
+  
+  border-radius: 1rem;
+  margin-bottom: 70px;
+}
+.quotes-center-line {
+  width: 5rem;
+  border-bottom: 0.1px solid white;
+  margin: 20px 0;
+}
+.motto-quote {
+  color: rgb(215, 196, 154);
+  font-size: 1.5em;
+}
 .quotes-center {
-  margin-bottom: 0.8rem;
+  position: absolute;
+  left: 35%;
+  top: -6%;
+
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.quote-1-div {
   width: 25vw;
   background-color: crimson;
   padding: 0.5rem;
@@ -55,21 +67,28 @@
 }
 
 .quotes-2 {
+  box-sizing: border-box;
   color: rgb(255, 255, 255);
+
   font-family: Roboto, sans-serif;
-  font-size: 1.4rem;
+  font-size: 31.248px;
   font-weight: 700;
+  height: 81.225px;
+  line-height: 40.6224px;
+  text-align: center;
 }
 
 /* Styles for the course main div */
 .course-main-div {
+  position: relative;
   margin: auto;
   background-color: black;
   border-radius: 1rem;
-  margin-top: -2rem;
+  border: 1px solid rgb(255, 199, 0);
+
   padding: 4rem 2rem 4rem 2rem;
-  max-width: 90%;
-  box-shadow: 0 0 20px 10px rgba(44, 44, 44, 0.3);
+  width: 90%;
+  box-shadow: rgba(53, 51, 48, 0.48) 0px 0px 50px 2px;
   margin-bottom: 50px;
   /* animation: glow2 1.8s infinite; */
 }
@@ -77,7 +96,11 @@
 /* Styles for the course inner div */
 .courese-inner-div {
   display: flex;
-  justify-content: space-between;
+}
+
+.tick-sym {
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
 /* Styles for the left and right divs */
@@ -116,5 +139,73 @@
 .right-div li {
   color: rgb(215, 196, 154); /* Set your desired text color */
   font-size: 16px; /* Set your desired font size */
-  margin-bottom: 10px; /* Adjust the margin as needed */
+  padding: 10px 5px;
 }
+
+.offer-end-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.offer-end-main h3 {
+  margin-bottom: 10px;
+}
+
+.offer-end-div {
+  display: flex;
+}
+
+.time-box {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px; /* Adjust the font size as needed */
+  background-color: #333333; /* Set your desired background color */
+  padding: 5px 20px;
+  border-radius: 5px; /* Optional: Add border radius for rounded corners */
+  text-align: center;
+  border: 2px solid white;
+  color: bisque;
+} /* Adjust the margin as needed */
+
+.min,
+.sec {
+  color: white;
+  font-size: 1.5em;
+}
+.minutes,
+.seconds {
+  font-size: 3em;
+  font-weight: 400;
+}
+.offer-timer-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+  margin: 2rem 0 4rem;
+
+  padding: 5px;
+}
+.offer-button button {
+  padding: 20px 40px;
+  margin-top: 10px;
+  animation: anime 2s linear infinite;
+
+  background: linear-gradient(-45deg, #fc6076, #ff9a44, #ef9d43, #e75516);
+  z-index: 1;
+}
+
+@keyframes anime {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.8);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(255, 165, 0, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.8);
+  }
+}
+

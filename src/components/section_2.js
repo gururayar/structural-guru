@@ -9,7 +9,7 @@ const section2 = () => {
           ABOUT OUR PRACTICAL STRUCTURAL DESIGN CONSULTANCY TRAINING
         </h1>
         <div className="center-line-2"></div>
-        <h2 className="yt-title2">Watch this explanation of this training!</h2>
+        <h2 className="yt-title2">Watch this explanation of the training!</h2>
       </div>
       <div className="video-div">
         <iframe

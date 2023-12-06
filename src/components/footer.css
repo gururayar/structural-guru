@@ -40,6 +40,12 @@ body {
 
 .price h3 {
   color: rgb(0, 255, 247);
+
+}
+.price h3 span{
+  font-size: 1em;
+  font-weight: bold;
+  color:orangered;
 }
 
 

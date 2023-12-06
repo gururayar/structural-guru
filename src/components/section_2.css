@@ -1,22 +1,32 @@
+.sec-2{
+  padding: 40px;
+}
 .video-titles-div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+  text-align: center;
+  gap: 1.5rem;
   margin-bottom: 1rem;
 }
 .yt-title1 {
   color: goldenrod;
+  font-size: 30px;
+  font-weight: 700;
+  
 }
 .yt-title2 {
-  color: goldenrod;
+  color: rgb(164, 121, 88);
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
   /* opacity: 0.5; */
 }
 
 .center-line-2 {
   width: 10%;
-  border-bottom: 0.1px solid rgb(99, 96, 96);
+  border-bottom: 0.1px solid rgb(113, 111, 107);
 }
 
 .video-div {

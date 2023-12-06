@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "./section_1.css";
+import tick from "../assets/tick.jpg";
 
 const Section1 = () => {
   const [minutes, setMinutes] = useState(15);
@@ -9,7 +10,7 @@ const Section1 = () => {
   useEffect(() => {
     let timer;
 
-    if (minutes === 0 && seconds === 1) {
+    if (minutes === 0 && seconds === 0) {
       // Timer reached 00:01, stop the timer
       clearInterval(timer);
     } else {
@@ -50,26 +51,70 @@ const Section1 = () => {
 
         <div className="quotes">
           <p className="quotes-2">
-            WELCOME TO PRACTICAL STRUCTURAL DESIGN CONSULTANCY TRAINING !
+            WELCOME TO PRACTICAL STRUCTURAL DESIGN
+            <br /> CONSULTANCY TRAINING !
+          </p>
+          <div className="quotes-center-line"></div>
+          <p className="motto-quote">
+            Empower Your Potential, We Deliver, You Excel
           </p>
         </div>
-        <div className="quotes-center">
-          <div className="quote-1-div">
+
+        <div className="course-main-div">
+          <div className="quotes-center">
             <p className="quotes-1">200 Hrs Online Pre-Recorded Videos</p>
           </div>
-        </div>
-        <div className="course-main-div">
           <div className="courese-inner-div">
             <div className="left-div">
               <h1 className="left-title">Why You Should Join?</h1>
               <ul>
-                <li>You Unlock Secrets To Create Time & Wealth In Business</li>
                 <li>
+                  <span>
+                    <img
+                      className="tick-sym"
+                      src={tick}
+                      alt="tick symbol"
+                      width={20}
+                      height={20}
+                    />
+                  </span>
+                  You Unlock Secrets To Create Time & Wealth In Business
+                </li>
+                <li>
+                  <span>
+                    <img
+                      className="tick-sym"
+                      src={tick}
+                      alt="tick symbol"
+                      width={20}
+                      height={20}
+                    />
+                  </span>
                   You Learn Strong Foundational Activities To Win In Your
                   Business
                 </li>
-                <li>Your Business Growth With Increased Revenue & Cashflow</li>
                 <li>
+                  <span>
+                    <img
+                      className="tick-sym"
+                      src={tick}
+                      alt="tick symbol"
+                      width={20}
+                      height={20}
+                    />
+                  </span>
+                  Your Business Growth With Increased Revenue & Cashflow
+                </li>
+                <li>
+                  <span>
+                    <img
+                      className="tick-sym"
+                      src={tick}
+                      alt="tick symbol"
+                      width={20}
+                      height={20}
+                    />
+                  </span>
                   More Profit, More Freedom, More Scale Is Guaranteed If You
                   Follow The Exact Steps Covered In The Workshop
                 </li>
@@ -81,13 +126,53 @@ const Section1 = () => {
             <div className="right-div">
               <h1 className="right-title">What Happens When You Join?</h1>
               <ul>
-                <li>You Unlock Secrets To Create Time & Wealth In Business</li>
                 <li>
+                  <span>
+                    <img
+                      className="tick-sym"
+                      src={tick}
+                      alt="tick symbol"
+                      width={20}
+                      height={20}
+                    />
+                  </span>
+                  You Unlock Secrets To Create Time & Wealth In Business
+                </li>
+                <li>
+                  <span>
+                    <img
+                      className="tick-sym"
+                      src={tick}
+                      alt="tick symbol"
+                      width={20}
+                      height={20}
+                    />
+                  </span>
                   You Learn Strong Foundational Activities To Win In Your
                   Business
                 </li>
-                <li>Your Business Growth With Increased Revenue & Cashflow</li>
                 <li>
+                  <span>
+                    <img
+                      className="tick-sym"
+                      src={tick}
+                      alt="tick symbol"
+                      width={20}
+                      height={20}
+                    />
+                  </span>
+                  Your Business Growth With Increased Revenue & Cashflow
+                </li>
+                <li>
+                  <span>
+                    <img
+                      className="tick-sym"
+                      src={tick}
+                      alt="tick symbol"
+                      width={20}
+                      height={20}
+                    />
+                  </span>
                   More Profit, More Freedom, More Scale Is Guaranteed If You
                   Follow The Exact Steps Covered In The Workshop
                 </li>
@@ -96,15 +181,34 @@ const Section1 = () => {
           </div>
         </div>
 
-        <div>
-          <h1>{`${String(minutes).padStart(2, "0")}:${String(seconds).padStart(
-            2,
-            "0"
-          )}`}</h1>
+        <div className="offer-timer-div">
+          <div className="offer-end-main">
+            <h3>Register in next</h3>
+
+            <div class="offer-end-div">
+              <div class="time-box">
+                <span class="minutes">{String(minutes).padStart(2, "0")}</span>
+                <span className="min">Minutes</span>
+              </div>
+
+              <div class="time-box">
+                <span class="seconds">{String(seconds).padStart(2, "0")}</span>
+                <span className="sec">Seconds</span>
+              </div>
+            </div>
+          </div>
+
+          
+          <a className="offer-button" href="https://rzp.io/l/phBlT9OqT" target="_blank" rel="noreferrer">
+            <button>Register Now at ₹3500/- Only</button>
+          </a>
+          
         </div>
+
       </div>
     </section>
   );
 };
 
 export default Section1;
+

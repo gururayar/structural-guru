@@ -4,9 +4,9 @@ import "./section_3.css";
 const section3 = () => {
   return (
     <section className="sec-3">
-      <h1 className="features-title">Key Features of The Training </h1>
-
       <div className="feature-list">
+        <h1 className="features-title">Key Features of The Training </h1>
+        <div className="sec-3-center-line"></div>
         <ul>
           <li>200 Hrs Online Pre-Recorded Videos</li>
           <li>
@@ -33,13 +33,15 @@ const section3 = () => {
         </ul>
 
         <div className="more-content-div">
-          <p className="more-content1">Wait there's many more...</p>
-          <p className="more-content2">
-            Download the complete Course Brochure -{" "}
-            <span>
-              <button className="course-pdf"></button>
-            </span>
-          </p>
+          <p className="more-content1">Wait there's more...</p>
+          <p className="more-content1">Download the complete Course Brochure</p>
+          <a
+            href="https://img1.wsimg.com/blobby/go/2e42f0cb-874d-433d-b9df-6117d6050d2b/downloads/Syllabus%20for%20TR-1000-1%20PSDCT-V.pdf?ver=1668681551847"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <button className="course-pdf">View Syllabus Brochure</button>
+          </a>
         </div>
       </div>
     </section>
