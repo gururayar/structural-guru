@@ -6,6 +6,7 @@ const section4 = () => {
     <section className="sec-4">
       <div className="training-info-div">
         <h1 className="training-heading">TO WHOM THIS TRAINING IS FOR?</h1>
+        <div className="sec-4-center-line"></div>
         <div className="training-targets">
           <li>Civil/Structural Aspirants</li>
           <li>Entrepreneurs</li>

@@ -103,23 +103,25 @@ const Accordion = () => {
 
   return (
     <section className="accordian-div">
-      <h1 className="accordian-heading">Frequently Asked Questions</h1>
+      <div className="accordion-inner-div">
+        <h1 className="accordian-heading">Frequently Asked Questions</h1>
 
-      {faqData.map((faq, index) => (
-        <div key={index} className="accordion-item">
-          <div
-            className={`accordion-title ${
-              activeIndex === index ? "active" : ""
-            }`}
-            onClick={() => toggleAccordion(index)}
-          >
-            {faq.question}
+        {faqData.map((faq, index) => (
+          <div key={index} className="accordion-item">
+            <div
+              className={`accordion-title ${
+                activeIndex === index ? "active" : ""
+              }`}
+              onClick={() => toggleAccordion(index)}
+            >
+              {faq.question}
+            </div>
+            {activeIndex === index && (
+              <div className="accordion-content">{faq.answer}</div>
+            )}
           </div>
-          {activeIndex === index && (
-            <div className="accordion-content">{faq.answer}</div>
-          )}
-        </div>
-      ))}
+        ))}
+      </div>
     </section>
   );
 };

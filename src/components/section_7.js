@@ -28,12 +28,12 @@ const section7 = () => {
 
           <div className="video-review-card">
             <p className="reviewer-name">
-              Mrs.Mamta, Sr. Structural Engineer, Uttrakhand Nigam Govt, PWD
-              Department.
+              Mrs.Snehal, Structural Engineer, Pune, Feedback on Practical
+              Structural Design Training
             </p>
             <div className="reviewer-video">
               <iframe
-                src="https://www.youtube.com/embed/N45Ws4l8I6Q?si=unNXFMxFncld7LLg"
+                src="https://www.youtube.com/embed/OWr5P_Gmf3o?si=A-P5Mxlf1GAa01MD"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -41,18 +41,18 @@ const section7 = () => {
               ></iframe>
             </div>
             <p className="reviewer-experience">
-              75+ Civil supervisors Transformed in Design career !
+              20+ Freelancing engineers Transformed in Design career !
             </p>
           </div>
 
           <div className="video-review-card">
             <p className="reviewer-name">
-              Mrs.Mamta, Sr. Structural Engineer, Uttrakhand Nigam Govt, PWD
-              Department.
+              Mr.Suresh, Sr. Structural Design Engineer, DB Engineering &
+              Consulting GmbH, Germany.
             </p>
             <div className="reviewer-video">
               <iframe
-                src="https://www.youtube.com/embed/N45Ws4l8I6Q?si=unNXFMxFncld7LLg"
+                src="https://www.youtube.com/embed/4TFWFJFGTMI?si=bZCphkAwgrkOx2q2"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -60,18 +60,17 @@ const section7 = () => {
               ></iframe>
             </div>
             <p className="reviewer-experience">
-              75+ Civil supervisors Transformed in Design career !
+              150+ Civil Engineers Transformed and entered in Design career !
             </p>
           </div>
 
           <div className="video-review-card">
             <p className="reviewer-name">
-              Mrs.Mamta, Sr. Structural Engineer, Uttrakhand Nigam Govt, PWD
-              Department.
+              Mr.Srinivasacharya, Director of Shubham Consultants, Hyderabad.
             </p>
             <div className="reviewer-video">
               <iframe
-                src="https://www.youtube.com/embed/N45Ws4l8I6Q?si=unNXFMxFncld7LLg"
+                src="https://www.youtube.com/embed/w_w0BjXJmGs?si=RWHpBTTwRnqqb610"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -79,18 +78,18 @@ const section7 = () => {
               ></iframe>
             </div>
             <p className="reviewer-experience">
-              75+ Civil supervisors Transformed in Design career !
+              110+ Consultants Trained and created till now!
             </p>
           </div>
 
           <div className="video-review-card">
             <p className="reviewer-name">
-              Mrs.Mamta, Sr. Structural Engineer, Uttrakhand Nigam Govt, PWD
-              Department.
+              Mr.Vasanth,Engineer of Department of Atomic Energy, GOVT of India,
+              Chennai.
             </p>
             <div className="reviewer-video">
               <iframe
-                src="https://www.youtube.com/embed/N45Ws4l8I6Q?si=unNXFMxFncld7LLg"
+                src="https://www.youtube.com/embed/wSYQvpPuW-4?si=_esGasYQ3nn92-QY"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -98,18 +97,17 @@ const section7 = () => {
               ></iframe>
             </div>
             <p className="reviewer-experience">
-              75+ Civil supervisors Transformed in Design career !
+              50+ Site Construction Engineers shifted in to design field !
             </p>
           </div>
 
           <div className="video-review-card">
             <p className="reviewer-name">
-              Mrs.Mamta, Sr. Structural Engineer, Uttrakhand Nigam Govt, PWD
-              Department.
+              Mr.Dhayanidhi, Retired ISRO Mechanical Engineer, Govt of India.
             </p>
             <div className="reviewer-video">
               <iframe
-                src="https://www.youtube.com/embed/N45Ws4l8I6Q?si=unNXFMxFncld7LLg"
+                src="https://www.youtube.com/embed/zBBc9kGrCj8?si=t86MxeBQIhne_V41"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -117,18 +115,18 @@ const section7 = () => {
               ></iframe>
             </div>
             <p className="reviewer-experience">
-              75+ Civil supervisors Transformed in Design career !
+              5+ Other Discipline Engineers trained in to structural design
+              field !
             </p>
           </div>
 
           <div className="video-review-card">
             <p className="reviewer-name">
-              Mrs.Mamta, Sr. Structural Engineer, Uttrakhand Nigam Govt, PWD
-              Department.
+              Mr.Vijay, Civil Engineering Consultant, Chennai.
             </p>
             <div className="reviewer-video">
               <iframe
-                src="https://www.youtube.com/embed/N45Ws4l8I6Q?si=unNXFMxFncld7LLg"
+                src="https://www.youtube.com/embed/RaMpDg1Xu4I?si=NIp8eZ7WJIsT6paH"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -136,18 +134,18 @@ const section7 = () => {
               ></iframe>
             </div>
             <p className="reviewer-experience">
-              75+ Civil supervisors Transformed in Design career !
+              500+ Engineer's life has transformed !
             </p>
           </div>
 
           <div className="video-review-card">
             <p className="reviewer-name">
-              Mrs.Mamta, Sr. Structural Engineer, Uttrakhand Nigam Govt, PWD
-              Department.
+              Feedback of Mr.Basanta Khadka, Engineering Consultant, Katmandu,
+              Nepal.
             </p>
             <div className="reviewer-video">
               <iframe
-                src="https://www.youtube.com/embed/N45Ws4l8I6Q?si=unNXFMxFncld7LLg"
+                src="https://www.youtube.com/embed/g7zzMWwcM7M?si=kuvCiN-Alo3-7sKi"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -155,18 +153,19 @@ const section7 = () => {
               ></iframe>
             </div>
             <p className="reviewer-experience">
-              75+ Civil supervisors Transformed in Design career !
+              70+ Abroad Engineer's life has transformed !
             </p>
           </div>
 
           <div className="video-review-card">
             <p className="reviewer-name">
-              Mrs.Mamta, Sr. Structural Engineer, Uttrakhand Nigam Govt, PWD
-              Department.
+              Practical structural design training review from Mr. Daniel Mamona
+              Matiaba, South African govt senior
             </p>
             <div className="reviewer-video">
               <iframe
-                src="https://www.youtube.com/embed/N45Ws4l8I6Q?si=unNXFMxFncld7LLg"
+                
+                src="https://www.youtube.com/embed/k3ii5zVN7J0?si=LwWL2bda_eh2SI7V"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -174,18 +173,21 @@ const section7 = () => {
               ></iframe>
             </div>
             <p className="reviewer-experience">
-              75+ Civil supervisors Transformed in Design career !
+              70+ Abroad Engineer's life has transformed !
             </p>
           </div>
 
-          <div className="video-review-card">
-            <p className="reviewer-name">
-              Mrs.Mamta, Sr. Structural Engineer, Uttrakhand Nigam Govt, PWD
-              Department.
-            </p>
+          
+        </div>
+
+        <div className="video-clarification-div">
+        <div className="video-clarification-card">
+            <p className="reviewer-name">Sample Doubts Clarification Process</p>
             <div className="reviewer-video">
               <iframe
-                src="https://www.youtube.com/embed/N45Ws4l8I6Q?si=unNXFMxFncld7LLg"
+                width={500}
+                height={300}
+                src="https://www.youtube.com/embed/IEDBjPC49rE?si=hMgSENfPZkuMJrMs"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -193,10 +195,11 @@ const section7 = () => {
               ></iframe>
             </div>
             <p className="reviewer-experience">
-              75+ Civil supervisors Transformed in Design career !
+              Clarification can be in Whatsapp, Skype or in Zoom calls/messages.
             </p>
           </div>
         </div>
+        
       </div>
     </section>
   );

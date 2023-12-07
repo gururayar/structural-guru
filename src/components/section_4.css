@@ -1,5 +1,5 @@
 .sec-4 {
-  background-color: #f4f4f4; /* Set your desired background color */
+  background-color: rgb(33,33,33); /* Set your desired background color */
   padding: 40px;
   display: flex;
   justify-content: center;
@@ -14,17 +14,25 @@
 
 /* Styles for the training heading */
 .training-heading {
-  color: #333; /* Set your desired text color */
+  color: goldenrod; /* Set your desired text color */
   font-size: 24px; /* Set your desired font size */
   font-weight: bold; /* Set your desired font weight */
   text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  
+}
+.sec-4-center-line{
+  width: 120px;
+  border-bottom: 0.1px solid rgb(129, 106, 57);
+  margin: auto;
 }
 
 /* Styles for the training targets list */
 .training-targets {
   list-style-type: none; /* Remove default list styles */
   padding: 0; /* Remove default list padding */
-  margin-top: 20px; /* Adjust the margin as needed */
+  margin-top: 50px; /* Adjust the margin as needed */
   column-count: 2; /* Divide the list items into two columns */
   column-gap: 10rem; /* Adjust the gap between columns */
 }
@@ -32,10 +40,10 @@
 /* Styles for individual list items */
 .training-targets li {
   width: 20rem;
-  color: #555; /* Set your desired text color */
-  font-size: 16px; /* Set your desired font size */
+  color: black; /* Set your desired text color */
+  font-size: 19px; /* Set your desired font size */
   margin-bottom: 1rem; /* Adjust the margin as needed */
-  background-color: #fff; /* Set background color for list items */
+  background-color: rgb(215, 196, 154); /* Set background color for list items */
   padding: 10px; /* Add padding to list items */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
