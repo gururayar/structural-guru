@@ -1,12 +1,16 @@
-.accordian-div {
+/* accordion.css */
+
+.accordion-div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: rgb(255, 251, 243);
   padding: 50px;
+ 
 }
-.accordion-inner-div{
+
+.accordion-inner-div {
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -14,13 +18,14 @@
   align-items: center;
   margin: 2.5rem auto;
   background-color: black;
-  border-radius:1rem ;
-
+  border-radius: 1rem;
+  padding-bottom: 80px;
 }
 
-.accordian-heading {
+.accordion-heading {
   margin: 3rem 0;
   color: goldenrod;
+  font-size: 2rem;
 }
 
 .accordion-item {
@@ -30,7 +35,6 @@
   justify-content: center;
   align-items: center;
   border: none;
-  
 }
 
 .accordion-title {
@@ -40,16 +44,38 @@
   cursor: pointer;
   border-bottom: 0.1px solid grey;
   color: rgb(215, 196, 154);
-  
+  position: relative;
 }
 
+.accordion-title:hover, .accordion-title.active {
+  color: rgb(0, 255, 247);
+}
 
+.arrow {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.5s;
+}
 
+/* Add the following styles for the clicked state */
+.accordion-title.active .arrow {
+  transform: translateY(-50%) rotateX(180deg);
+}
+
+.inverted .arrow {
+  transform: translateY(-50%) rotateX(180deg);
+}
 
 .accordion-content {
   width: 100%;
-  padding: 20px 10px;
+  padding: 15px 15px;
   font-size: 17px;
   border-top: none;
   border-radius: 0 0 5px 5px;
+  color: rgb(255, 251, 243);
+}
+.acc-payment-link{
+  color:lightgreen;
 }

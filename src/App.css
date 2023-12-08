@@ -6,3 +6,14 @@
 section {
   min-height: 100vh;
 }
+
+section .animate{
+  transition: 1s;
+}
+
+.sec-1 .animate{
+  transform: translatex(-100%);
+}
+.sec-1.show-animate .animate{
+  transform: translateX(0);
+}

@@ -4,7 +4,7 @@ import "./section_6.css";
 
 const section6 = () => {
   return (
-    <section className="sec-6">
+    <section className="sec-6 show-animate">
       <div className="google-review-div">
         <h1 className="google-review-title">
           VIEW GOOGLE REVIEWS OF THE TRAINING

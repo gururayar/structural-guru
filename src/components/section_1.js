@@ -2,8 +2,27 @@ import React from "react";
 import { useState, useEffect } from "react";
 import "./section_1.css";
 import tick from "../assets/tick.jpg";
+import companyLogo from '../assets/sg-profile-logo.jpg'
 
 const Section1 = () => {
+
+  let sections = document.querySelectorAll('section');
+
+  window.onscroll = () => {
+    sections.forEach(sec => {
+      let top = window.scrollY;
+      let offset = sec.offsetTop - 150;
+      let height = sec.offsetHeight;
+
+      if (top >= offset && top <offset + height) {
+        sec.classList.add('show-animate');
+      }
+      else{
+        sec.classList.remove('show-animate');
+      }
+    })
+  }
+
   const [minutes, setMinutes] = useState(15);
   const [seconds, setSeconds] = useState(0);
 
@@ -43,16 +62,16 @@ const Section1 = () => {
   }, []);
 
   return (
-    <section className="sec-1">
-      <div className="sec-1-div">
+    <section className="sec-1 show-animate">
+      <div className="sec-1-div ">
         <div className="logo-img">
-          {/* <img src={img1} alt="" width={100} height={100} /> */}
+          <img className="animate" src={companyLogo} alt="company-logo"  />
         </div>
 
         <div className="quotes">
           <p className="quotes-2">
             WELCOME TO PRACTICAL STRUCTURAL DESIGN
-            <br /> CONSULTANCY TRAINING !
+            CONSULTANCY TRAINING !
           </p>
           <div className="quotes-center-line"></div>
           <p className="motto-quote">

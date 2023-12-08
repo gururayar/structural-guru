@@ -3,7 +3,7 @@ import "./section_5.css";
 
 const section5 = () => {
   return (
-    <section className="sec-5">
+    <section className="sec-5 show-animate">
       <div className="payment-info-div">
         <h1 className="payment-title">
           Procedure to Enroll Online Video Mode Training

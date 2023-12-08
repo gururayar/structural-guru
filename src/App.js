@@ -7,11 +7,15 @@ import Section5 from './components/section_5'
 import Section6 from './components/section_6'
 import Section7 from './components/section_7'
 import Accordion from './components/accordion'
+import Subscribe from './components/subscribe _section'
 import Footer from './components/footer'
+import Logos from "./components/companyLogo";
 function App() {
+
   return (
     <main>
       <Section1 />
+      <Logos />
       <Section2 />
       <Section3 />
       <Section4 />
@@ -19,6 +23,7 @@ function App() {
       <Section6 />
       <Section7 />
       <Accordion />
+      <Subscribe />
       <Footer />
     </main>
   );

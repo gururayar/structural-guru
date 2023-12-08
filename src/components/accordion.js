@@ -1,5 +1,6 @@
-import React from "react";
-import { useState } from "react";
+// Accordion.js
+
+import React, { useState } from "react";
 import "./accordion.css";
 
 const Accordion = () => {
@@ -54,7 +55,19 @@ const Accordion = () => {
 
     {
       question: "Where is 70% discount payment link?",
-      answer: `Link here: https://rzp.io/l/phBlT9OqT`,
+      answer: (
+        <span>
+          Link here: {" "}
+          <a
+            href="https://rzp.io/l/phBlT9OqT"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="acc-payment-link"
+          >
+              https://rzp.io/l/phBlT9OqT
+          </a>
+        </span>
+      ),
     },
 
     {
@@ -72,7 +85,7 @@ const Accordion = () => {
     {
       question: "Is there placement assistance after course completion?",
       answer:
-        "We refer cv of completed persons in our VIP business owner's circle where continuous requirements will be emerging from them. At the end of the training, the skill level will be super high that easily any design role interview will be passed. More over one can start their own consultancy too or start part time consultancy works as well as alternate profession.",
+        "We refer CV of completed persons in our VIP business owner's circle where continuous requirements will be emerging from them. At the end of the training, the skill level will be super high that easily any design role interview will be passed. More over one can start their own consultancy too or start part time consultancy works as well as alternate profession.",
     },
 
     {
@@ -102,9 +115,9 @@ const Accordion = () => {
   ];
 
   return (
-    <section className="accordian-div">
+    <section className="accordion-div">
       <div className="accordion-inner-div">
-        <h1 className="accordian-heading">Frequently Asked Questions</h1>
+        <h1 className="accordion-heading">Frequently Asked Questions</h1>
 
         {faqData.map((faq, index) => (
           <div key={index} className="accordion-item">
@@ -115,6 +128,11 @@ const Accordion = () => {
               onClick={() => toggleAccordion(index)}
             >
               {faq.question}
+              <span
+                className={`arrow ${activeIndex === index ? "inverted" : ""}`}
+              >
+                &#9660;
+              </span>
             </div>
             {activeIndex === index && (
               <div className="accordion-content">{faq.answer}</div>

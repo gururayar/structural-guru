@@ -3,7 +3,7 @@ import './section_2.css'
 
 const section2 = () => {
   return (
-    <section className="sec-2">
+    <section className="sec-2 show-animate">
       <div className="video-titles-div">
         <h1 className="yt-title1">
           ABOUT OUR PRACTICAL STRUCTURAL DESIGN CONSULTANCY TRAINING

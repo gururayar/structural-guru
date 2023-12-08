@@ -1,0 +1,88 @@
+
+#contact {
+
+    padding: 50px 0;
+    text-align: center;
+    display: flex;justify-content: center;
+    align-items: center;
+  }
+  /* .contactPage{
+    background-color: black;
+  } */
+  
+  .contactPageTitle {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color:goldenrod;
+  }
+  
+  .contactDesc {
+    font-size: 18px;
+    
+    
+    color: #a1a0a0;
+  }
+  
+  .contactform {
+    max-width: 500px;
+    margin: 30px auto;
+    
+    
+    padding:40px 20px;
+    background-color:black;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fullname,
+  .email,
+  .msg {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid goldenrod;
+    border-radius: 4px;
+    font-size:16px;
+   
+    letter-spacing: 1px;
+    background-color: black;
+    color: white;
+    
+  }
+  input:focus,textarea:focus{
+    outline: none;
+  }
+  ::placeholder{
+    color:white;
+  }
+  
+  .msg {
+    resize: vertical; 
+  }
+  
+  .submitbtn {
+    background-color: red;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    animation: none;
+    box-shadow: none;
+    transition:transform 0.3s ease;
+  }
+  
+  .submitbtn:hover {
+    transform: scale(1.1);
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .contactform {
+      width: 90%;
+    }
+    
+  }
+  

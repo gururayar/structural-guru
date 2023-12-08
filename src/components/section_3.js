@@ -3,7 +3,7 @@ import "./section_3.css";
 
 const section3 = () => {
   return (
-    <section className="sec-3">
+    <section className="sec-3 show-animate">
       <div className="feature-list">
         <h1 className="features-title">Key Features of The Training </h1>
         <div className="sec-3-center-line"></div>
