@@ -15,7 +15,7 @@ const section2 = () => {
         <iframe
           width="900"
           height="550"
-          src="https://www.youtube.com/embed/0npY5ja2xP8?autoplay=1"
+          src="https://www.youtube.com/embed/0npY5ja2xP8?"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

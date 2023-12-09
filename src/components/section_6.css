@@ -82,3 +82,53 @@
   font-weight: bold; /* Set your desired font weight */
   margin-top: 5px; /* Adjust the margin as needed */
 }
+
+
+/* Add these styles to your existing media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .sec-6 {
+    padding: 60px 20px; /* Adjust padding for responsiveness */
+  }
+
+  .google-review-div {
+    width: 100%; /* Adjust maximum width for smaller screens */
+    margin: 0 auto; /* Center the div horizontally */
+  }
+
+  .google-review-title {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+    margin-bottom: 25px; /* Adjust margin for smaller screens */
+  }
+
+  .google-div {
+    margin-bottom: 15px; /* Adjust margin for smaller screens */
+  }
+
+  .google-div iframe {
+    height: 40vh; /* Adjust video height for smaller screens */
+  }
+
+  .text-review-div {
+    flex-direction: column; /* Stack text reviews vertically on smaller screens */
+  }
+
+  .text-review {
+    max-width: 100%; /* Adjust maximum width for smaller screens */
+    margin: 10px 0;
+    padding: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .star-img {
+    width: 15px; /* Adjust star size for smaller screens */
+    margin-bottom: 3px; /* Adjust margin for smaller screens */
+  }
+
+  .review {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .reviewer-name {
+    font-size: 16px; /* Adjust font size for smaller screens */
+    margin-top: 3px; /* Adjust margin for smaller screens */
+  }
+}

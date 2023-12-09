@@ -5,17 +5,14 @@
     rgb(26, 138, 211) 51.5%,
     rgb(72, 177, 234) 100.2%
   ); /* Set your desired background color */
-  padding:100px 50px;
-  min-height: 100vh;
-  display: flex;
+  padding:100px 20px;
   
-  justify-content: center;
-  align-items: center;
+  
 }
 
 /* Styles for the payment info div */
 .payment-info-div {
-  width: 90%; /* Set your desired maximum width */
+  width: 100%; /* Set your desired maximum width */
   margin: 0 auto; /* Center the div horizontally */
   text-align: center; 
   display: flex;
@@ -40,7 +37,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  
  
 }
 
@@ -89,4 +86,45 @@
   border: 1px solid #ddd; /* Set your desired border color */
   padding: 20px; /* Add padding to the methods */
   border-radius: 10px; /* Set border radius for a rounded appearance */
+}
+
+@media screen and (max-width: 768px) {
+  /* General adjustments for smaller screens */
+  .sec-5 {
+    padding: 50px 20px;
+  }
+
+  .payment-info-div {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .payment-title {
+    font-size: 24px;
+  }
+
+  .payment-info1,
+  .payment-info2 {
+    font-size: 18px;
+  }
+
+  .payment-link {
+    font-size: 16px;
+  }
+  .payment-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+  }
+
+  .payment-method-1,
+  .payment-method-2 {
+    width: 100%;
+    
+  }
+
+  .font-bold-payment {
+    font-size: 18px;
+  }
 }

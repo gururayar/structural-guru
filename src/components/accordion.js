@@ -57,14 +57,14 @@ const Accordion = () => {
       question: "Where is 70% discount payment link?",
       answer: (
         <span>
-          Link here: {" "}
+          Link here:{" "}
           <a
             href="https://rzp.io/l/phBlT9OqT"
             target="_blank"
             rel="noopener noreferrer"
             className="acc-payment-link"
           >
-              https://rzp.io/l/phBlT9OqT
+            https://rzp.io/l/phBlT9OqT
           </a>
         </span>
       ),
@@ -128,11 +128,13 @@ const Accordion = () => {
               onClick={() => toggleAccordion(index)}
             >
               {faq.question}
-              <span
-                className={`arrow ${activeIndex === index ? "inverted" : ""}`}
-              >
-                &#9660;
-              </span>
+              <div className="arrow-div">
+                <span
+                  className={`arrow ${activeIndex === index ? "inverted" : ""}`}
+                >
+                  &#9660;
+                </span>
+              </div>
             </div>
             {activeIndex === index && (
               <div className="accordion-content">{faq.answer}</div>

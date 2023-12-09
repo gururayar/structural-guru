@@ -1,20 +1,15 @@
 .sec-7 {
-  padding: 90px 40px;
+  padding: 70px 120px;
   width: 100%;
 }
 
 /* Style the container for video reviews */
 .video-review-container {
-  width:80%;
+  width:100%;
   
   margin: 0 auto;
 }
-.video-clarification-div{
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 60px;
-  
-}
+
 
 /* Style the heading */
 .video-review-container h1 {
@@ -43,28 +38,7 @@
   transition: box-shadow 0.5s ease; /* Add smooth transition for hover effect */
   transition: transform 0.5s ease;
 }
-.video-clarification-card {
-  border: 1px solid #ddd;
-  width: 55%;
-  min-height:50vh ;
-  margin: 0 auto;
-  padding: 15px;
-  background-color: rgb(255, 251, 243);
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content:space-between;
-  transition: box-shadow 0.5s ease; /* Add smooth transition for hover effect */
-  transition: transform 0.5s ease;
-}
-.video-clarification-card .reviewer-name {
-  margin: 2rem auto;
-  font-size: 24px;
-}
-.video-clarification-card  .reviewer-experience{
-  margin: 1rem auto;
-}
+
 
 .video-review-card:hover {
   box-shadow: 0 0 10px rgba(238, 219, 219, 0.992); /* Hover effect */
@@ -86,8 +60,20 @@
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
+  .sec-7 {
+    padding: 70px 30px;
+    
+  }
+  .video-review-container h1 {
+    
+    font-size: 24px;
+    
+  }
   .video-main-div {
     grid-template-columns: 1fr; /* Single column for smaller screens */
   }
   
+  .video-review-card {
+    text-align: center;
+  }
 }

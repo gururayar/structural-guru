@@ -1,5 +1,5 @@
 .sec-2{
-  padding: 120px 40px;
+  padding: 100px 20px;
 }
 .video-titles-div {
   display: flex;
@@ -37,6 +37,25 @@
 }
 
 iframe {
+  max-width: 100%;
   border-radius: 1.2rem;
   box-shadow: 0 0 20px 10px rgba(44, 44, 44, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+  .yt-title1 {
+    font-size: 1.3rem; /* Adjust font size for smaller screens */
+  }
+
+  .yt-title2 {
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+  }
+
+  .center-line-2 {
+    width: 25%; /* Adjust width for smaller screens */
+  }
+
+  .video-div {
+    margin-bottom: 2rem; /* Adjust margin for smaller screens */
+  }
 }

@@ -180,25 +180,7 @@ const section7 = () => {
           
         </div>
 
-        <div className="video-clarification-div">
-        <div className="video-clarification-card">
-            <p className="reviewer-name">Sample Doubts Clarification Process</p>
-            <div className="reviewer-video">
-              <iframe
-                width={500}
-                height={300}
-                src="https://www.youtube.com/embed/IEDBjPC49rE?si=hMgSENfPZkuMJrMs"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
-            </div>
-            <p className="reviewer-experience">
-              Clarification can be in Whatsapp, Skype or in Zoom calls/messages.
-            </p>
-          </div>
-        </div>
+        
         
       </div>
     </section>

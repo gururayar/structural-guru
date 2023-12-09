@@ -1,17 +1,15 @@
 /* accordion.css */
 
 .accordion-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 50px 20px;
   background-color: rgb(255, 251, 243);
-  padding: 50px;
+ 
  
 }
 
 .accordion-inner-div {
-  width: 60%;
+  width: 100%;
+  max-width: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,17 +17,17 @@
   margin: 2.5rem auto;
   background-color: black;
   border-radius: 1rem;
-  padding-bottom: 80px;
+  padding: 40px 20px;
 }
 
 .accordion-heading {
-  margin: 3rem 0;
+  margin: 2rem 0;
   color: goldenrod;
   font-size: 2rem;
 }
 
 .accordion-item {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -79,3 +77,52 @@
 .acc-payment-link{
   color:lightgreen;
 }
+
+@media screen and (max-width: 768px) {
+  .accordion-div {
+    padding: 10px 10px;
+  }
+
+  .accordion-inner-div {
+    margin: 3rem auto;
+    padding: 50px 20px;
+  }
+
+  .accordion-heading {
+    margin: 0;
+    text-align: center;
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+  }
+
+  .accordion-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .accordion-title {
+    font-size: 15px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; /* Set the width to 100% */
+  }
+
+  .arrow-div {
+    flex-shrink: 0;
+    width: 50px; /* Set the width for the arrow container */
+  }
+
+  .arrow {
+    font-size: 20px;
+  }
+
+  .accordion-content {
+    margin-top: 20px;
+  }
+}
+
+
+
+

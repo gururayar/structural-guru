@@ -1,15 +1,19 @@
 .sec-4 {
   background-color: rgb(33,33,33); /* Set your desired background color */
-  padding: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center; /* Adjust the padding as needed */
+  padding: 40px 20px;
+  /* Adjust the padding as needed */
 }
 
 /* Styles for the training info div */
 .training-info-div {
+  width: 100%;
   max-width: 800px; /* Set your desired maximum width */
-  margin: 0 auto; /* Center the div horizontally */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* Center the div horizontally */
 }
 
 /* Styles for the training heading */
@@ -30,6 +34,7 @@
 
 /* Styles for the training targets list */
 .training-targets {
+  width: 100%;
   list-style-type: none; /* Remove default list styles */
   padding: 0; /* Remove default list padding */
   margin-top: 50px; /* Adjust the margin as needed */
@@ -54,4 +59,34 @@
 /* Optional: Add hover effect to list items */
 .training-targets li:hover {
   transform: scale(1.05); /* Add underline on hover */
+}
+
+@media screen and (max-width: 768px) {
+  /* General adjustments for smaller screens */
+  .sec-4 {
+    padding: 60px 20px;
+  }
+
+  .training-info-div {
+    max-width: 100%; /* Take up full width on smaller screens */
+  }
+
+  .training-heading {
+    font-size: 20px;
+  }
+
+  .training-targets {
+    column-count: 1; /* Display list items in a single column on smaller screens */
+    column-gap: 0;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Styles for individual list items on smaller screens */
+  .training-targets li {
+    font-size: 16px;
+  }
 }
