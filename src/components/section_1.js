@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "./section_1.css";
-import tick from "../assets/tick.jpg";
+import tick from "../assets/tick-symbol.png";
 import companyLogo from '../assets/sg-profile-logo.jpg'
 
 const Section1 = () => {

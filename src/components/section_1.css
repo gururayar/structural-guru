@@ -1,6 +1,6 @@
 /* Styles for the section div */
 .sec-1-div {
-  padding: 2vw;
+  padding: 50px 20px;
   text-align: center;
   width: 100%;
   display: flex;
@@ -107,6 +107,9 @@
 .courese-inner-div {
   display: flex;
   flex-wrap: wrap;
+  
+  
+
 }
 
 .tick-sym {
@@ -153,6 +156,7 @@
   text-align:left;
   display: flex;
   justify-content: left;
+  align-items: center;
   margin-bottom: 5px;
   
   
@@ -228,11 +232,26 @@
 
 @media screen and (max-width: 768px) {
   .sec-1-div {
-    padding: 10px;
+    padding: 50px 10px;
   }
 
   .quotes {
     width: 80%;
+  }
+  .quotes-center {
+    position: absolute;
+    left: 50%;
+    top: -3%;
+    text-align: center;
+    transform: translateX(-50%);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    background-color: crimson;
+    padding: 0.5rem;
+    border-radius: 4rem;
   }
   .quotes-2 {
     box-sizing: border-box;
@@ -247,7 +266,16 @@
   }
 
   .course-main-div {
-    width: 90%;
+    width: 95%;
+    
+  }
+  .courese-inner-div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+  
   }
 
   .left-div,
@@ -257,11 +285,14 @@
   }
 
   .tick-sym {
-    margin-right: 5px;
+    margin-right: 10px;
+
   }
 
   .center-line {
-    display: none; /* Hide the center line on smaller screens */
+   width: 45%;
+   border-bottom: 1px solid white;
+   margin:15px auto ;
   }
 
   .offer-timer-div {
@@ -272,5 +303,6 @@
 
   .offer-button button {
     padding: 15px 30px;
+    margin-top: 3rem;
   }
 }
