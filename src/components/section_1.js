@@ -13,15 +13,16 @@ const Section1 = () => {
       let top = window.scrollY;
       let offset = sec.offsetTop - 150;
       let height = sec.offsetHeight;
-
-      if (top >= offset && top <offset + height) {
+  
+    
+      if (top >= offset - height / 2 && top < offset + height) {
         sec.classList.add('show-animate');
-      }
-      else{
+      } else {
         sec.classList.remove('show-animate');
       }
-    })
-  }
+    });
+  };
+  
 
   const [minutes, setMinutes] = useState(15);
   const [seconds, setSeconds] = useState(0);
@@ -30,7 +31,7 @@ const Section1 = () => {
     let timer;
 
     if (minutes === 0 && seconds === 0) {
-      // Timer reached 00:01, stop the timer
+      
       clearInterval(timer);
     } else {
       timer = setInterval(() => {
@@ -43,17 +44,17 @@ const Section1 = () => {
       }, 1000);
     }
 
-    // Cleanup function to clear the interval when the component unmounts
+    
     return () => clearInterval(timer);
   }, [minutes, seconds]);
 
   useEffect(() => {
-    // Save the timer state to localStorage
+    
     localStorage.setItem("timer", JSON.stringify({ minutes, seconds }));
   }, [minutes, seconds]);
 
   useEffect(() => {
-    // Check if there's a saved timer in localStorage and set the timer accordingly
+    
     const savedTimer = JSON.parse(localStorage.getItem("timer"));
     if (savedTimer) {
       setMinutes(savedTimer.minutes);
@@ -70,21 +71,20 @@ const Section1 = () => {
 
         <div className="quotes">
           <p className="quotes-2">
-            WELCOME TO PRACTICAL STRUCTURAL DESIGN
+            WELCOME TO PRACTICAL STRUCTURAL DESIGN <br />
             CONSULTANCY TRAINING !
           </p>
           <div className="quotes-center-line"></div>
           <p className="motto-quote">
-            Empower Your Potential, We Deliver, You Excel
-          </p>
+            Empower Your Potential, We Deliver, You Excel<span className="showRigth-animate"></span></p>
         </div>
 
         <div className="course-main-div">
           <div className="quotes-center">
-            <p className="quotes-1">200 Hrs Online Pre-Recorded Videos</p>
+            <p className="quotes-1 animate">200 Hrs Online Pre-Recorded Videos</p>
           </div>
           <div className="courese-inner-div">
-            <div className="left-div">
+            <div className="left-div animate">
               <h1 className="left-title">Why You Should Join?</h1>
               <ul>
                 <li>
@@ -142,7 +142,7 @@ const Section1 = () => {
 
             <div className="center-line"></div>
 
-            <div className="right-div">
+            <div className="right-div animate">
               <h1 className="right-title">What Happens When You Join?</h1>
               <ul>
                 <li>

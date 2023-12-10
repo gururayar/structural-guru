@@ -6,7 +6,7 @@ const section7 = () => {
     <section className="sec-7 show-animate">
       <div className="video-review-container">
         <h1>VIDEO REVIEWS OF THIS TRAINING</h1>
-        <div className="video-main-div">
+        <div className="video-main-div animate">
           <div className="video-review-card">
             <p className="reviewer-name">
               Mrs.Mamta, Sr. Structural Engineer, Uttrakhand Nigam Govt, PWD
@@ -164,7 +164,6 @@ const section7 = () => {
             </p>
             <div className="reviewer-video">
               <iframe
-                
                 src="https://www.youtube.com/embed/k3ii5zVN7J0?si=LwWL2bda_eh2SI7V"
                 title="YouTube video player"
                 frameborder="0"
@@ -176,12 +175,7 @@ const section7 = () => {
               70+ Abroad Engineer's life has transformed !
             </p>
           </div>
-
-          
         </div>
-
-        
-        
       </div>
     </section>
   );

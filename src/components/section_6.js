@@ -9,7 +9,7 @@ const section6 = () => {
         <h1 className="google-review-title">
           VIEW GOOGLE REVIEWS OF THE TRAINING
         </h1>
-        <div className="google-div">
+        <div className="google-div animate">
           <iframe
             width="900"
             height="550"
@@ -21,8 +21,8 @@ const section6 = () => {
           ></iframe>
         </div>
       </div>
-      <div className="text-review-div">
-        <div className="text-review">
+      <div className="text-review-div animate">
+        <div className="text-review" style={{ "--i": 0 }}>
           <div className="star-img">
             <img src={starLogo} alt="star" />
             <img src={starLogo} alt="star" />
@@ -34,7 +34,7 @@ const section6 = () => {
           <h2 className="reviewer-name">Manik Reddy</h2>
         </div>
 
-        <div className="text-review">
+        <div className="text-review" style={{ "--i": 1 }}>
           <div className="star-img">
             <img src={starLogo} alt="star" />
             <img src={starLogo} alt="star" />
@@ -48,7 +48,7 @@ const section6 = () => {
           <h2 className="reviewer-name">Shashi Shekhar Singh</h2>
         </div>
 
-        <div className="text-review">
+        <div className="text-review" style={{ "--i": 2 }}>
           <div className="star-img">
             <img src={starLogo} alt="star" />
             <img src={starLogo} alt="star" />
@@ -59,7 +59,7 @@ const section6 = () => {
           <h2 className="reviewer-name">Sanjay Kakade</h2>
         </div>
 
-        <div className="text-review">
+        <div className="text-review" style={{ "--i": 3 }}>
           <div className="star-img">
             <img src={starLogo} alt="star" />
             <img src={starLogo} alt="star" />

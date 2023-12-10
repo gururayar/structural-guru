@@ -7,17 +7,153 @@
 section {
   
   min-height: 100vh;
+  overflow: hidden;
   
 }
 
+/* scroll transition */
+
 section .animate{
+  opacity: 0;
+  filter: blur(5px);
   transition: 1s;
 }
 
-.sec-1 .animate{
-  transform: translatex(-100%);
+section.show-animate .animate{
+  opacity: 1;
+  filter: blur(0);
 }
-.sec-1.show-animate .animate{
+
+.sec-1 .logo-img img{
+  transform: translateY(100%);
+  transition: 1.5s;
+ 
+
+}
+.sec-1.show-animate .logo-img img{
+  transform: translateY(0);
+}
+
+.sec-1 .showRigth-animate{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(33,33,33);
+  transition: 6s;
+}
+.sec-1.show-animate .showRigth-animate{
+  width: 0;
+}
+
+.sec-1 .left-div{
+  transform: translateX(-100%);
+  
+ 
+
+}
+.sec-1.show-animate .left-div{
   transform: translateX(0);
 }
 
+.sec-1 .right-div{
+  transform: translateX(100%);
+  
+ 
+
+}
+.sec-1.show-animate .right-div{
+  transform: translateX(0);
+}
+
+.sec-1 .quotes-1{
+  transform: scale(0);
+  
+ 
+
+}
+.sec-1.show-animate .quotes-1{
+  transform: scale(1);
+}
+
+.sec-2 .animate{
+  transform: translateY(20%);
+  
+  
+}
+.sec-2.show-animate .animate{
+  transform: translateY(0);
+}
+
+.sec-3 ul li{
+  transform: scale(0.7);
+  
+  transition-delay:calc(.15s * var(--i)) ;
+}
+.sec-3.show-animate ul li{
+  transform: scale(1);
+}
+
+.sec-4 ul li{
+  transform: scale(0.9);
+  transition-delay:calc(.18s * var(--i)) ;
+}
+.sec-4.show-animate ul li{
+  transform: scale(1);
+}
+
+.sec-5 .animate{
+  transform: translateY(40%);
+  transition-delay: 0.2s;
+ 
+  
+}
+.sec-5.show-animate .animate{
+  transform: translateY(0);
+}
+
+.sec-6 .google-div.animate{
+  transform: translateY(30%);
+  transition-delay:.5s ;
+}
+.sec-6.show-animate .google-div.animate{
+  transform:translateY(0);
+}
+
+.sec-6 .text-review-div .text-review{
+  transform: scale(0);
+ 
+  transition: 2s;
+  transition-delay:calc(.25s * var(--i)) ;
+}
+.sec-6.show-animate .text-review-div .text-review{
+  transform:scale(1);
+}
+
+.sec-7 .animate{
+  transform: translateY(20%);
+  
+  
+}
+.sec-7.show-animate .animate{
+  transform: translateY(0);
+}
+
+.accordion-div .animate{
+  transform: translateY(100%);
+  transition: 2s;
+  
+}
+.accordion-div.show-animate .animate{
+  transform: translateY(0);
+}
+
+.contact-sec .animate{
+  transform: translateY(20%);
+  transition-delay: 0.4s;
+  
+}
+.contact-sec.show-animate .animate{
+  transform: translateY(0);
+}

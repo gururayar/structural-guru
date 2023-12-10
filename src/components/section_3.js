@@ -8,8 +8,8 @@ const section3 = () => {
       <div className="feature-list">
         <h1 className="features-title">Key Features of The Training </h1>
         <div className="sec-3-center-line"></div>
-        <ul>
-          <li>
+        <ul className="animate">
+          <li style={{ "--i": 0 }}>
             <span>
               <img
                 className="tick-sym"
@@ -21,7 +21,7 @@ const section3 = () => {
             </span>
             200 Hrs Online Pre-Recorded Videos
           </li>
-          <li>
+          <li className="animate" style={{ "--i": 1 }}>
             <span>
               <img
                 className="tick-sym"
@@ -34,7 +34,7 @@ const section3 = () => {
             Life time doubts and clarifications support through WA, or SKYPE, or
             ZOOM.
           </li>
-          <li>
+          <li className="animate" style={{ "--i": 2 }}>
             <span>
               <img
                 className="tick-sym"
@@ -46,7 +46,7 @@ const section3 = () => {
             </span>
             25 yrs experienced teaching in practical way.
           </li>
-          <li>
+          <li className="animate" style={{ "--i": 3 }}>
             <span>
               <img
                 className="tick-sym"
@@ -59,7 +59,7 @@ const section3 = () => {
             Structural design concepts covered from basic scratch to advanced
             level.
           </li>
-          <li>
+          <li className="animate" style={{ "--i": 4 }}>
             <span>
               <img
                 className="tick-sym"
@@ -71,7 +71,7 @@ const section3 = () => {
             </span>
             Get hands on Experience with industry experts.{" "}
           </li>
-          <li>
+          <li className="animate" style={{ "--i": 5 }}>
             <span>
               <img
                 className="tick-sym"
@@ -83,7 +83,7 @@ const section3 = () => {
             </span>
             Live Project work reviews & guidance's.{" "}
           </li>
-          <li>
+          <li className="animate" style={{ "--i": 6 }}>
             <span>
               <img
                 className="tick-sym"
@@ -95,7 +95,7 @@ const section3 = () => {
             </span>
             Life time access for xl files, manuals, books, notes.{" "}
           </li>
-          <li>
+          <li className="animate" style={{ "--i": 7 }}>
             <span>
               <img
                 className="tick-sym"
@@ -107,7 +107,7 @@ const section3 = () => {
             </span>
             Life time after training technical guidance support.{" "}
           </li>
-          <li>
+          <li className="animate" style={{ "--i": 8 }}>
             <span>
               <img
                 className="tick-sym"
@@ -119,7 +119,7 @@ const section3 = () => {
             </span>
             Academic project/thesis support guidance's.
           </li>
-          <li>
+          <li className="animate" style={{ "--i": 9 }}>
             <span>
               <img
                 className="tick-sym"
@@ -131,7 +131,7 @@ const section3 = () => {
             </span>
             Paid internship workshops training for students.
           </li>
-          <li>
+          <li className="animate" style={{ "--i": 10 }}>
             <span>
               <img
                 className="tick-sym"

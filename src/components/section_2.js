@@ -1,5 +1,5 @@
 import React from "react";
-import './section_2.css'
+import "./section_2.css";
 
 const section2 = () => {
   return (
@@ -11,7 +11,7 @@ const section2 = () => {
         <div className="center-line-2"></div>
         <h2 className="yt-title2">Watch this explanation of the training!</h2>
       </div>
-      <div className="video-div">
+      <div className="video-div animate">
         <iframe
           width="900"
           height="550"

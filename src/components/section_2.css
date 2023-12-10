@@ -1,4 +1,4 @@
-.sec-2{
+.sec-2 {
   padding: 100px 20px;
 }
 .video-titles-div {
@@ -14,14 +14,15 @@
   color: goldenrod;
   font-size: 30px;
   font-weight: 700;
-  
+  font-family: "Fjalla One", sans-serif;
+  letter-spacing: 1.5px;
 }
 .yt-title2 {
   color: rgb(207, 128, 68);
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 1px;
-  /* opacity: 0.5; */
+  font-family: "Oswald", sans-serif;
 }
 
 .center-line-2 {
@@ -36,30 +37,26 @@
   margin-bottom: 3.5rem;
 }
 
-
-
 iframe {
   max-width: 100%;
   border-radius: 1.2rem;
   box-shadow: 0 0 20px 10px rgba(44, 44, 44, 0.3);
 }
 
-
-
 @media screen and (max-width: 768px) {
   .yt-title1 {
-    font-size: 1.3rem; /* Adjust font size for smaller screens */
+    font-size: 1.3rem;
   }
 
   .yt-title2 {
-    font-size: 1.2rem; /* Adjust font size for smaller screens */
+    font-size: 1.2rem;
   }
 
   .center-line-2 {
-    width: 25%; /* Adjust width for smaller screens */
+    width: 25%;
   }
 
   .video-div {
-    margin-bottom: 2rem; /* Adjust margin for smaller screens */
+    margin-bottom: 2rem;
   }
 }

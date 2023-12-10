@@ -1,74 +1,66 @@
 .sec-4 {
-  background-color: rgb(33,33,33); /* Set your desired background color */
+  background-color: rgb(33, 33, 33);
   padding: 40px 20px;
-  /* Adjust the padding as needed */
 }
 
-/* Styles for the training info div */
 .training-info-div {
   width: 100%;
-  max-width: 800px; /* Set your desired maximum width */
+  max-width: 800px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* Center the div horizontally */
 }
 
-/* Styles for the training heading */
 .training-heading {
-  color: goldenrod; /* Set your desired text color */
-  font-size: 24px; /* Set your desired font size */
-  font-weight: bold; /* Set your desired font weight */
+  color: goldenrod;
   text-align: center;
-  letter-spacing: 1px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Fjalla One", sans-serif;
+  letter-spacing: 1.5px;
   margin-bottom: 20px;
-  
 }
-.sec-4-center-line{
+.sec-4-center-line {
   width: 120px;
   border-bottom: 0.1px solid rgb(129, 106, 57);
   margin: auto;
 }
 
-/* Styles for the training targets list */
 .training-targets {
   width: 100%;
-  list-style-type: none; /* Remove default list styles */
-  padding: 0; /* Remove default list padding */
-  margin-top: 50px; /* Adjust the margin as needed */
-  column-count: 2; /* Divide the list items into two columns */
-  column-gap: 10rem; /* Adjust the gap between columns */
+  list-style-type: none;
+  padding: 0;
+  margin-top: 50px;
+  column-count: 2;
+  column-gap: 10rem;
 }
 
-/* Styles for individual list items */
 .training-targets li {
   width: 20rem;
-  color: black; /* Set your desired text color */
-  font-size: 19px; /* Set your desired font size */
-  margin-bottom: 1rem; /* Adjust the margin as needed */
-  background-color: rgb(215, 196, 154); /* Set background color for list items */
-  padding: 10px; /* Add padding to list items */
+  color: black;
+  font-size: 19px;
+  margin-bottom: 1rem;
+  background-color: rgb(215, 196, 154);
+  padding: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
   text-align: center;
-  transition: transform 0.2s ease; /* Add box shadow to list items */
+  transition: transform 0.2s ease;
 }
 
-/* Optional: Add hover effect to list items */
 .training-targets li:hover {
-  transform: scale(1.05); /* Add underline on hover */
+  transform: scale(1.05);
 }
 
 @media screen and (max-width: 768px) {
-  /* General adjustments for smaller screens */
   .sec-4 {
     padding: 60px 20px;
   }
 
   .training-info-div {
-    max-width: 100%; /* Take up full width on smaller screens */
+    max-width: 100%;
   }
 
   .training-heading {
@@ -76,7 +68,7 @@
   }
 
   .training-targets {
-    column-count: 1; /* Display list items in a single column on smaller screens */
+    column-count: 1;
     column-gap: 0;
     margin-top: 20px;
     display: flex;
@@ -85,7 +77,6 @@
     align-items: center;
   }
 
-  /* Styles for individual list items on smaller screens */
   .training-targets li {
     font-size: 16px;
   }

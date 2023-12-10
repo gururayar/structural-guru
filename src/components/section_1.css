@@ -1,4 +1,3 @@
-/* Styles for the section div */
 .sec-1-div {
   padding: 50px 20px;
   text-align: center;
@@ -7,33 +6,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  /* Set your desired maximum width */
-  margin: 0 auto; /* Center the div horizontally */
+  margin: 0 auto;
 }
-
-/* Styles for the logo image */
 .logo-img {
   width: 120px;
   max-width: 100%;
   display: flex;
   justify-content: center;
-  
- 
-  align-items: flex-start; /* Align items at the top of the container */
-   /* Hide the overflowing parts for a perfect circle */
+  align-items: flex-start;
 }
 
 .logo-img img {
   width: 100%;
   height: auto;
   object-fit: cover;
-  /* Make it a circle */
 }
 
-
-
-/* Styles for the quotes */
 .quotes {
   display: flex;
   justify-content: space-between;
@@ -49,8 +37,11 @@
   margin: 20px 0;
 }
 .motto-quote {
+  position: relative;
   color: rgb(215, 196, 154);
   font-size: 1.5em;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
 }
 .quotes-center {
   position: absolute;
@@ -68,19 +59,20 @@
 }
 
 .quotes-1 {
-  color: #fff; /* Set your desired text color */
-  font-size: 15px; /* Set your desired font size */
-  font-weight: bold; /* Set your desired font weight */
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .quotes-2 {
   box-sizing: border-box;
-  color:goldenrod;
+  color: goldenrod;
   background-color: black;
-  padding:30px;
-  font-family: Roboto, sans-serif;
-  font-size: 31.248px;
+  padding: 30px;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 30px;
   font-weight: 700;
+  letter-spacing: 1.5px;
   border-radius: 1rem;
   box-shadow: rgba(53, 51, 48, 0.48) 0px 0px 50px 2px;
   line-height: 40.6224px;
@@ -88,28 +80,20 @@
   border: 1px solid rgb(255, 199, 0);
 }
 
-/* Styles for the course main div */
 .course-main-div {
   position: relative;
   margin: auto;
   background-color: black;
   border-radius: 1rem;
   border: 1px solid rgb(255, 199, 0);
-
   padding: 4rem 2rem 4rem 2rem;
   width: 90%;
   box-shadow: rgba(53, 51, 48, 0.48) 0px 0px 50px 2px;
   margin-bottom: 50px;
-  /* animation: glow2 1.8s infinite; */
 }
-
-/* Styles for the course inner div */
 .courese-inner-div {
   display: flex;
   flex-wrap: wrap;
-  
-  
-
 }
 
 .tick-sym {
@@ -117,50 +101,44 @@
   margin-right: 10px;
 }
 
-/* Styles for the left and right divs */
 .left-div,
 .right-div {
   flex: 1;
-  padding: 20px; /* Set width for each div (50% with some spacing) */
+  padding: 20px;
 }
 
-/* Styles for the center line */
 .center-line {
   width: 2px;
-  background-color: #333; /* Set your desired line color */
-  margin: 0 20px; /* Adjust the margin as needed */
+  background-color: #333;
+  margin: 0 20px;
 }
 
-/* Styles for the left and right titles */
 .left-title,
 .right-title {
-  color: goldenrod; /* Set your desired text color */
-  font-size: 24px; /* Set your desired font size */
-  font-weight: bold; /* Set your desired font weight */
-  margin-bottom: 15px; /* Adjust the margin as needed */
+  color: goldenrod;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
-/* Styles for the lists in the left and right divs */
 .left-div ul,
 .right-div ul {
-  list-style-type: none; /* Remove default list styles */
-  padding: 0; /* Remove default list padding */
-   /* Align list items to the left */
+  list-style-type: none;
+  padding: 0;
 }
 
 .left-div li,
 .right-div li {
-  color: rgb(215, 196, 154); /* Set your desired text color */
-  font-size: 16px; /* Set your desired font size */
+  color: rgb(215, 196, 154);
+  font-size: 16px;
   padding: 10px 5px;
-  text-align:left;
+  text-align: left;
   display: flex;
   justify-content: left;
   align-items: center;
   margin-bottom: 5px;
-  
-  
-  
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
 }
 
 .offer-end-main {
@@ -181,14 +159,14 @@
   margin-right: 10px;
   display: flex;
   flex-direction: column;
-  font-size: 18px; /* Adjust the font size as needed */
-  background-color: #333333; /* Set your desired background color */
+  font-size: 18px;
+  background-color: #333333;
   padding: 5px 20px;
-  border-radius: 5px; /* Optional: Add border radius for rounded corners */
+  border-radius: 5px;
   text-align: center;
   border: 2px solid white;
   color: bisque;
-} /* Adjust the margin as needed */
+}
 
 .min,
 .sec {
@@ -244,7 +222,7 @@
     top: -3%;
     text-align: center;
     transform: translateX(-50%);
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -255,27 +233,25 @@
   }
   .quotes-2 {
     box-sizing: border-box;
-    color:goldenrod;
+    color: goldenrod;
     background-color: black;
-    padding:10px;
-    font-family: Roboto, sans-serif;
+    padding: 10px;
+
     font-size: 20px;
-    
+
     line-height: 30.6224px;
-    
+  }
+  .motto-quote {
+    font-size: 1.6em;
   }
 
   .course-main-div {
     width: 95%;
-    
   }
   .courese-inner-div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
-  
   }
 
   .left-div,
@@ -286,13 +262,12 @@
 
   .tick-sym {
     margin-right: 10px;
-
   }
 
   .center-line {
-   width: 45%;
-   border-bottom: 1px solid white;
-   margin:15px auto ;
+    width: 45%;
+    border-bottom: 1px solid white;
+    margin: 15px auto;
   }
 
   .offer-timer-div {

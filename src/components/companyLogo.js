@@ -3,7 +3,7 @@ import img1 from "../assets/sg-logo-1.jpg";
 import img2 from "../assets/sg-logo-2.jpg";
 import img3 from "../assets/sg-logo-3.jpg";
 import img4 from "../assets/sg-logo-4.jpg";
-import './companyLogo.css';
+import "./companyLogo.css";
 
 const Logos = () => {
   return (

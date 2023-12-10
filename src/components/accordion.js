@@ -1,5 +1,3 @@
-// Accordion.js
-
 import React, { useState } from "react";
 import "./accordion.css";
 
@@ -115,12 +113,12 @@ const Accordion = () => {
   ];
 
   return (
-    <section className="accordion-div">
+    <section className="accordion-div show-animate">
       <div className="accordion-inner-div">
         <h1 className="accordion-heading">Frequently Asked Questions</h1>
 
         {faqData.map((faq, index) => (
-          <div key={index} className="accordion-item">
+          <div key={index} className="accordion-item animate">
             <div
               className={`accordion-title ${
                 activeIndex === index ? "active" : ""
