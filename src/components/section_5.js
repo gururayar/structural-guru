@@ -1,5 +1,6 @@
 import React from "react";
 import "./section_5.css";
+import tick from "../assets/tick-symbol.png";
 
 const section5 = () => {
   return (
@@ -10,24 +11,112 @@ const section5 = () => {
         </h1>
 
         <div className="payment-container">
-          <div className="payment-method-1 animate">
-            <p className="payment-info1">
-              Our present special discount Offer training fee of JUST{" "}
-              <b className="font-bold-payment"> ₹ 3500/- ONLY</b> for the first
-              come 100 registrations of PRACTICAL STRUCTURAL DESIGN CONSULTANCY
-              TRAINING in 200 hrs video mode will expire soon, and there after
-              the price of training will be increased.
-              <br />
-              Avail before offer expiry, from the below link :
-            </p>
-            <a
-              href="https://rzp.io/l/phBlT9OqT"
-              target="_blank"
-              rel="noreferrer"
-              className="payment-link"
-            >
-              https://rzp.io/l/phBlT9OqT
-            </a>
+          <div className="payment-method-1">
+            <div className="basic-plan-column">
+              <h1 className="plans-h1">Basic</h1>
+
+              <p className="plans-p">
+                <b>₹ 3,500/-</b> <span>for lifetime Access </span>
+              </p>
+              <p className="plans-p2">
+                Get started with our Basic Plan Kickstart your learning journey
+              </p>
+
+              <div className="payment-center-line"></div>
+
+              <ul className="basic-plan-features">
+                <li>
+                  <img src={tick} alt="" />
+                  work range of workout videos
+                </li>
+                <li>
+                  <img src={tick} alt="" />
+                  work range of workout videos
+                </li>
+                <li>
+                  <img src={tick} alt="" />
+                  work range of workout videos
+                </li>
+                <li>
+                  <img src={tick} alt="" />
+                  work range of workout videos
+                </li>
+              </ul>
+
+              <a href="https://rzp.io/l/phBlT9OqT">
+                <button className="plans-button">Buy Now</button>
+              </a>
+            </div>
+            <div className="pro-plan-column">
+              <h1 className="plans-h1">Pro</h1>
+
+              <p className="plans-p">
+                <b>₹ 50,000/-</b> <span>for lifetime Access </span>
+              </p>
+              <p className="plans-p2">
+                Get started with our Basic Plan Kickstart your learning journey
+              </p>
+
+              <div className="payment-center-line"></div>
+
+              <ul className="basic-plan-features">
+                <li>
+                  <img src={tick} alt="" />
+                  work range of workout videos
+                </li>
+                <li>
+                  <img src={tick} alt="" />
+                  work range of workout videos
+                </li>
+                <li>
+                  <img src={tick} alt="" />
+                  work range of workout videos
+                </li>
+                <li>
+                  <img src={tick} alt="" />
+                  work range of workout videos
+                </li>
+              </ul>
+
+              <a href="https://rzp.io/l/phBlT9OqT">
+                <button className="plans-button">Buy Now</button>
+              </a>
+            </div>
+            <div className="pro-plus-column">
+              <h1 className="plans-h1">Pro Plus</h1>
+
+              <p className="plans-p">
+                <b>₹ 1,00,000/-</b> <span>for lifetime Access </span>
+              </p>
+              <p className="plans-p2">
+                Get started with our Basic Plan Kickstart your learning journey
+              </p>
+
+              <div className="payment-center-line"></div>
+
+              <ul className="basic-plan-features">
+                <li>
+                  <img src={tick} alt="" />
+                  work range of workout videos
+                </li>
+                <li>
+                  <img src={tick} alt="" />
+                  work range of workout videos
+                </li>
+                <li>
+                  <img src={tick} alt="" />
+                  work range of workout videos
+                </li>
+                <li>
+                  <img src={tick} alt="" />
+                  work range of workout videos
+                </li>
+              </ul>
+
+              <a href="https://rzp.io/l/phBlT9OqT">
+                <button className="plans-button">Buy Now</button>
+              </a>
+            </div>
           </div>
 
           <div className="payment-center-line-forcolumn">

@@ -67,6 +67,7 @@ const Section1 = () => {
       <div className="sec-1-div ">
         <div className="logo-img">
           <img className="animate" src={companyLogo} alt="company-logo"  />
+          <h1 className="company-name">StructuralGuru</h1>
         </div>
 
         <div className="quotes">
@@ -76,12 +77,12 @@ const Section1 = () => {
           </p>
           <div className="quotes-center-line"></div>
           <p className="motto-quote">
-            Empower Your Potential, We Deliver, You Excel<span className="showRigth-animate"></span></p>
+          Help Each Other, Grow Together!<span className="showRigth-animate"></span></p>
         </div>
 
         <div className="course-main-div">
           <div className="quotes-center">
-            <p className="quotes-1 animate">200 Hrs Online Pre-Recorded Videos</p>
+            <p className="quotes-1 animate">Design your success!</p>
           </div>
           <div className="courese-inner-div">
             <div className="left-div animate">
@@ -97,7 +98,8 @@ const Section1 = () => {
                       height={20}
                     />
                   </span>
-                  You Unlock Secrets To Create Time & Wealth In Business
+                  To become expert in manual RCC & STEEL design calculations.
+
                 </li>
                 <li>
                   <span>
@@ -109,8 +111,8 @@ const Section1 = () => {
                       height={20}
                     />
                   </span>
-                  You Learn Strong Foundational Activities To Win In Your
-                  Business
+                  To become expert in 5 softwares (Etabs, Staadpro connect,Safe,Rcdc,IdeaStatica) based RCC & Steel designs.
+
                 </li>
                 <li>
                   <span>
@@ -122,7 +124,8 @@ const Section1 = () => {
                       height={20}
                     />
                   </span>
-                  Your Business Growth With Increased Revenue & Cashflow
+                  To become expert in both RCC & STERL manual detailing and automated software based detailing.
+
                 </li>
                 <li>
                   <span>
@@ -134,8 +137,20 @@ const Section1 = () => {
                       height={20}
                     />
                   </span>
-                  More Profit, More Freedom, More Scale Is Guaranteed If You
-                  Follow The Exact Steps Covered In The Workshop
+                  To practice RCC & STEEL design under live project and through expert guidance.
+                </li>
+
+                <li>
+                  <span>
+                    <img
+                      className="tick-sym"
+                      src={tick}
+                      alt="tick symbol"
+                      width={20}
+                      height={20}
+                    />
+                  </span>
+                  To easily switch job from any other field to design field without any hurdles.
                 </li>
               </ul>
             </div>
@@ -155,7 +170,8 @@ const Section1 = () => {
                       height={20}
                     />
                   </span>
-                  You Unlock Secrets To Create Time & Wealth In Business
+                  Gain high knowledge confidence in structural design field in live practical way of learning.
+
                 </li>
                 <li>
                   <span>
@@ -167,8 +183,8 @@ const Section1 = () => {
                       height={20}
                     />
                   </span>
-                  You Learn Strong Foundational Activities To Win In Your
-                  Business
+                  Start your own design consultancy with our excellant step by step guidance.
+
                 </li>
                 <li>
                   <span>
@@ -180,7 +196,8 @@ const Section1 = () => {
                       height={20}
                     />
                   </span>
-                  Your Business Growth With Increased Revenue & Cashflow
+                  Easily pass in any structural design role interviews and switch & settle in design field.
+
                 </li>
                 <li>
                   <span>
@@ -192,8 +209,22 @@ const Section1 = () => {
                       height={20}
                     />
                   </span>
-                  More Profit, More Freedom, More Scale Is Guaranteed If You
-                  Follow The Exact Steps Covered In The Workshop
+                  Get our free pan India services franchise in both training and consultancy business.
+
+                </li>
+
+                <li>
+                  <span>
+                    <img
+                      className="tick-sym"
+                      src={tick}
+                      alt="tick symbol"
+                      width={20}
+                      height={20}
+                    />
+                  </span>
+                  If selected, join in our company in various positions.
+
                 </li>
               </ul>
             </div>
