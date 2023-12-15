@@ -250,7 +250,7 @@ const Section1 = () => {
 
           
           <a className="offer-button" href="https://rzp.io/l/phBlT9OqT" target="_blank" rel="noreferrer">
-            <button>Register Now at ₹3500/- Only</button>
+            <button>Register Now</button>
           </a>
           
         </div>

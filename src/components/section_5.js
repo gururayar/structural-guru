@@ -13,13 +13,13 @@ const section5 = () => {
         <div className="payment-container">
           <div className="payment-method-1">
             <div className="basic-plan-column">
-              <h1 className="plans-h1">Basic</h1>
+              <h1 className="plans-h1 basic-h1">Basic <span>Recommended</span></h1>
 
               <p className="plans-p">
-                <b>₹ 3,500/-</b> <span>for lifetime Access </span>
+                <b>₹ 3,500/-</b> <span>for 1-year access to videos and lifetime access to files. </span>
               </p>
               <p className="plans-p2">
-                Get started with our Basic Plan Kickstart your learning journey
+                Get started with our Basic Plan and Kickstart your learning journey.
               </p>
 
               <div className="payment-center-line"></div>
@@ -27,19 +27,33 @@ const section5 = () => {
               <ul className="basic-plan-features">
                 <li>
                   <img src={tick} alt="" />
-                  work range of workout videos
+                  200 hrs pre-recorded videos.
+
                 </li>
                 <li>
                   <img src={tick} alt="" />
-                  work range of workout videos
+                  Doubts & clarification in online/phone
+
                 </li>
                 <li>
                   <img src={tick} alt="" />
-                  work range of workout videos
+                  Pdf Code books, Notes, 250+E-Books collection, IS, American & 300+ BS code design xl sheets supply.
+
                 </li>
                 <li>
                   <img src={tick} alt="" />
-                  work range of workout videos
+                  Bonus consultancy set up Training videos.
+
+                </li>
+                <li>
+                  <img src={tick} alt="" />
+                  Bonus Digital marketing campaign 1 no set up.
+
+                </li>
+                <li>
+                  <img src={tick} alt="" />
+                  Certification.
+
                 </li>
               </ul>
 
@@ -51,10 +65,10 @@ const section5 = () => {
               <h1 className="plans-h1">Pro</h1>
 
               <p className="plans-p">
-                <b>₹ 50,000/-</b> <span>for lifetime Access </span>
+                <span><b>₹ 6,250/</b>month(for 8 months)</span> <span>for 1-year access to videos and lifetime access to files.</span>
               </p>
               <p className="plans-p2">
-                Get started with our Basic Plan Kickstart your learning journey
+                Get started with our Pro Plan and Kickstart your learning journey
               </p>
 
               <div className="payment-center-line"></div>
@@ -62,23 +76,43 @@ const section5 = () => {
               <ul className="basic-plan-features">
                 <li>
                   <img src={tick} alt="" />
-                  work range of workout videos
+                  Live zoom webinars 3 hrs per week.
+
                 </li>
                 <li>
                   <img src={tick} alt="" />
-                  work range of workout videos
+                  200 hrs pre-recorded videos.
+
                 </li>
                 <li>
                   <img src={tick} alt="" />
-                  work range of workout videos
+                  Doubts & clarification in live zoom webinar.
+
                 </li>
                 <li>
                   <img src={tick} alt="" />
-                  work range of workout videos
+                  Pdf Code books, Notes, 250+E-Books collection, IS, American & 300+ BS code design xl sheets supply.
+
+                </li>
+                <li>
+                  <img src={tick} alt="" />
+                  Bonus consultancy set up Training videos.
+
+
+                </li>
+                <li>
+                  <img src={tick} alt="" />
+                  Bonus Digital marketing campaign 1 no set up.
+
+                </li>
+                <li>
+                  <img src={tick} alt="" />
+                  Certification.
+
                 </li>
               </ul>
 
-              <a href="https://rzp.io/l/phBlT9OqT">
+              <a href="https://rzp.io/l/kHucYoACi1" target="_blank" rel="noreferrer">
                 <button className="plans-button">Buy Now</button>
               </a>
             </div>
@@ -86,10 +120,10 @@ const section5 = () => {
               <h1 className="plans-h1">Pro Plus</h1>
 
               <p className="plans-p">
-                <b>₹ 1,00,000/-</b> <span>for lifetime Access </span>
+                <b>₹ 1,00,000/-</b> <span>for 1-year access to videos and lifetime access to files.</span>
               </p>
               <p className="plans-p2">
-                Get started with our Basic Plan Kickstart your learning journey
+                Get started with our Pro Plus Plan and Kickstart your learning journey
               </p>
 
               <div className="payment-center-line"></div>
@@ -97,23 +131,41 @@ const section5 = () => {
               <ul className="basic-plan-features">
                 <li>
                   <img src={tick} alt="" />
-                  work range of workout videos
+                  Live offline class 3 hrs per day except Sunday.
                 </li>
                 <li>
                   <img src={tick} alt="" />
-                  work range of workout videos
+                  200 hrs pre-recorded videos.
+
                 </li>
                 <li>
                   <img src={tick} alt="" />
-                  work range of workout videos
+                  Doubts & clarification in direct class itself.
+
                 </li>
                 <li>
                   <img src={tick} alt="" />
-                  work range of workout videos
+                  Pdf Code books, Notes, 250+E-Books collection, IS, American & 300+ BS code design xl sheets supply.
+
+                </li>
+                <li>
+                  <img src={tick} alt="" />
+                  Bonus consultancy set up Training videos.
+
+                </li>
+                <li>
+                  <img src={tick} alt="" />
+                  Bonus Digital marketing campaign 1 no set up.
+
+                </li>
+                <li>
+                  <img src={tick} alt="" />
+                  Certification.
+
                 </li>
               </ul>
 
-              <a href="https://rzp.io/l/phBlT9OqT">
+              <a href="https://rzp.io/l/KLM5qG4aOl" target="_blank" rel="noreferrer">
                 <button className="plans-button">Buy Now</button>
               </a>
             </div>

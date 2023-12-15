@@ -55,7 +55,8 @@
   background-color: white;
   border: 1px solid #333;
   border-radius: 10px;
-  min-height: 70vh;
+ 
+  min-height: 76vh;
   color: black;
   transition: background-color 0.5s, color 0.5s, transform 0.5s;
   box-sizing: border-box;
@@ -93,19 +94,42 @@
 }
 
 .plans-h1 {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 700;
   text-align: left;
   margin-bottom: 10px;
+}
+
+.basic-h1{
+  display: flex;
+  justify-content: space-between;
+}
+.basic-h1 span{
+  margin-right: 2rem;
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius:2rem;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .plans-p {
   font-size: 16px;
   text-align: left;
   margin-bottom: 15px;
+  
 }
 .plans-p b{
   font-size: 34px;
+  margin-right: 10px;
+}
+.plans-p {
+  
+  font-size: 17px;
+  
+  
+  
 }
 .plans-p span{
   display: flex;

@@ -19,8 +19,7 @@ const section3 = () => {
                 height={20}
               />
             </span>
-            200 Hrs Online Pre-Recorded Videos
-          </li>
+            This training is available in 200 hrs pre-recorded video mode(Basic), live zoom webinar mode (Pro) and live offline mode (Pro plus) in English, Tamil, Hindi and Telugu languages.          </li>
           <li className="animate" style={{ "--i": 1 }}>
             <span>
               <img
