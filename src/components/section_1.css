@@ -25,7 +25,8 @@
 .company-name{
   font-size: 24px;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  margin-top:4px ;
 }
 
 .quotes {
@@ -220,12 +221,17 @@
   }
 
   .quotes {
-    width: 80%;
+    width: 100%;
+  }
+  .company-name{
+    
+    letter-spacing: 3px;
+    margin-top:5px ;
   }
   .quotes-center {
     position: absolute;
     left: 50%;
-    top: -2%;
+    top: -1.6%;
     text-align: center;
     transform: translateX(-50%);
 
@@ -242,13 +248,14 @@
     color: goldenrod;
     background-color: black;
     padding: 10px;
+    letter-spacing: 1.5px;
+    font-size: 17px;
 
-    font-size: 20px;
 
     line-height: 30.6224px;
   }
   .motto-quote {
-    font-size: 1.6em;
+    font-size: 1.4em;
   }
 
   .course-main-div {

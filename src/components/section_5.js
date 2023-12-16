@@ -4,7 +4,7 @@ import tick from "../assets/tick-symbol.png";
 
 const section5 = () => {
   return (
-    <section className="sec-5 show-animate">
+    <section id="paymentId" className="sec-5 show-animate">
       <div className="payment-info-div">
         <h1 className="payment-title">
           Procedure to Enroll Online Video Mode Training

@@ -13,7 +13,7 @@ const section6 = () => {
           <iframe
             width="900"
             height="550"
-            src="https://www.youtube.com/embed/XDGgj2UELBI?si=bhSTa7UduJbwELxp"
+            src="https://www.youtube.com/embed/vFX1HXxcDKA?si=2u_EgvxoMBjL5ViR"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

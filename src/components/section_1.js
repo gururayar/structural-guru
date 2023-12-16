@@ -223,7 +223,7 @@ const Section1 = () => {
                       height={20}
                     />
                   </span>
-                  If selected, join in our company in various positions.
+                  If selected, join in our company in various positions.
 
                 </li>
               </ul>
@@ -249,7 +249,7 @@ const Section1 = () => {
           </div>
 
           
-          <a className="offer-button" href="https://rzp.io/l/phBlT9OqT" target="_blank" rel="noreferrer">
+          <a className="offer-button" href="#paymentId" >
             <button>Register Now</button>
           </a>
           

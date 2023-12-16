@@ -1,9 +1,38 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./section_2.css";
 
-const section2 = () => {
+const Section2 = () => {
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5, // Adjust this threshold as needed
+    };
+
+    const callback = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          // Autoplay the video when section is in view
+          const iframe = sectionRef.current.querySelector("iframe");
+          iframe.src = iframe.src.replace("autoplay=0", "autoplay=1");
+        } else {
+          // Pause the video when section is out of view
+          const iframe = sectionRef.current.querySelector("iframe");
+          iframe.src = iframe.src.replace("autoplay=1", "autoplay=0");
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(callback, options);
+    observer.observe(sectionRef.current);
+
+    // Cleanup the observer when the component is unmounted
+    return () => observer.disconnect();
+  }, []);
   return (
-    <section className="sec-2 show-animate">
+    <section className="sec-2 show-animate" ref={sectionRef}>
       <div className="video-titles-div">
         <h1 className="yt-title1">
           ABOUT OUR PRACTICAL STRUCTURAL DESIGN CONSULTANCY TRAINING
@@ -15,7 +44,7 @@ const section2 = () => {
         <iframe
           width="900"
           height="550"
-          src="https://www.youtube.com/embed/0npY5ja2xP8?"
+          src="https://www.youtube.com/embed/0npY5ja2xP8?autoplay=0"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -26,4 +55,4 @@ const section2 = () => {
   );
 };
 
-export default section2;
+export default Section2;
