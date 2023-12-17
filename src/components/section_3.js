@@ -1,6 +1,7 @@
 import React from "react";
 import "./section_3.css";
 import tick from "../assets/tick-symbol.png";
+import broucherImg from "../assets/img1.webp";
 
 const section3 = () => {
   return (
@@ -19,7 +20,10 @@ const section3 = () => {
                 height={20}
               />
             </span>
-            This training is available in 200 hrs pre-recorded video mode(Basic), live zoom webinar mode (Pro) and live offline mode (Pro plus) in English, Tamil, Hindi and Telugu languages.          </li>
+            This training is available in 200 hrs pre-recorded video
+            mode(Basic), live zoom webinar mode (Pro) and live offline mode (Pro
+            plus) in English, Tamil, Hindi and Telugu languages.{" "}
+          </li>
           <li className="animate" style={{ "--i": 1 }}>
             <span>
               <img
@@ -145,18 +149,19 @@ const section3 = () => {
             nos sales of this same training by him/her.
           </li>
         </ul>
-
-        <div className="more-content-div">
-          <p className="more-content1">Wait there's more...</p>
-          <p className="more-content1">Download the complete Course Brochure</p>
-          <a
-            href="https://img1.wsimg.com/blobby/go/2e42f0cb-874d-433d-b9df-6117d6050d2b/downloads/Syllabus%20for%20TR-1000-1%20PSDCT-V.pdf?ver=1668681551847"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <button className="course-pdf">View Syllabus Brochure</button>
-          </a>
+      </div>
+      <div className="more-content-div">
+        <h1 className="more-content1">Download the complete Course Brochure</h1>
+        <div className="brochureImg-div">
+          <img src={broucherImg} alt="broucherImg" className="brochure-img" />
         </div>
+        <a
+          href="https://img1.wsimg.com/blobby/go/2e42f0cb-874d-433d-b9df-6117d6050d2b/downloads/Syllabus%20for%20TR-1000-1%20PSDCT-V.pdf?ver=1668681551847"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <button className="course-pdf">View Syllabus Brochure</button>
+        </a>
       </div>
     </section>
   );

@@ -1,18 +1,24 @@
 footer {
   display: flex;
+  column-gap: 20px;
   justify-content: space-between;
   align-items: center;
   background-color: black;
   color: #fff;
-  padding: 0.5rem 15rem;
+  padding: 1rem 15rem;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
+  text-wrap: nowrap;
+  
   z-index: 1000;
 }
 body {
   margin-bottom: 80px;
+}
+footer h2{
+  color: goldenrod;
 }
 
 .price {
@@ -31,17 +37,25 @@ body {
 .price-2 {
   margin-left: 15px;
 }
-
+.price h2{
+  font-size: 30px;
+}
 .price-2 h1 {
   font-weight: 100;
   font-size: 1.3rem;
   text-decoration: line-through;
 }
-
-.price h3 {
-  color: rgb(0, 255, 247);
+.price-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
-.price h3 span {
+.price-3 h3 {
+  color: rgb(0, 255, 247);
+  
+}
+.price-3 h3 span {
   font-size: 1em;
   font-weight: bold;
   color: orangered;
@@ -54,6 +68,7 @@ button {
   display: inline-block;
   padding: 10px 20px;
   font-size: 16px;
+  margin-bottom: 5px;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
@@ -104,5 +119,8 @@ button {
   .price-1,
   .price-2 {
     margin-left: 15px;
+  }
+  .price h2{
+    font-size: 28px;
   }
 }

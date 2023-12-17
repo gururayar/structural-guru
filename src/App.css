@@ -95,12 +95,12 @@ section.show-animate .animate{
   transform: scale(1);
 }
 
-.sec-4 ul li{
-  transform: scale(0.9);
-  transition-delay:calc(.18s * var(--i)) ;
+.sec-4 ul{
+  transform: translateY(10%);
+  
 }
-.sec-4.show-animate ul li{
-  transform: scale(1);
+.sec-4.show-animate ul{
+  transform: translateY(0);
 }
 
 .sec-5 .animate{
@@ -141,8 +141,8 @@ section.show-animate .animate{
 }
 
 .accordion-div .animate{
-  transform: translateY(100%);
-  transition: 2s;
+  transform: translateY(10%);
+  
   
 }
 .accordion-div.show-animate .animate{

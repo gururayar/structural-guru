@@ -26,7 +26,19 @@
   font-family: "Fjalla One", sans-serif;
   letter-spacing: 1.5px;
 }
-
+.accordion-inner-div p{
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 1.5rem;
+  padding: 0 50px;
+}
+.accordion-inner-div p a{
+  color: rgb(215, 196, 154);
+  text-decoration: none;
+}
+.accordion-inner-div p a:hover{
+  text-decoration: underline;
+}
 .accordion-item {
   width: 100%;
   display: flex;
@@ -96,7 +108,13 @@
     font-size: 1.7rem;
     padding-bottom: 1rem;
   }
-
+  .accordion-inner-div p{
+    text-align:center;
+    margin-top: 5px;
+    margin-bottom: 1.5rem;
+    padding: 0;
+    
+  }
   .accordion-item {
     display: flex;
     flex-direction: column;

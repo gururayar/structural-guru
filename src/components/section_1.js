@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import {Link} from 'react-scroll';
 import "./section_1.css";
 import tick from "../assets/tick-symbol.png";
 import companyLogo from '../assets/sg-profile-logo.jpg'
@@ -77,7 +78,7 @@ const Section1 = () => {
           </p>
           <div className="quotes-center-line"></div>
           <p className="motto-quote">
-          Help Each Other, Grow Together!<span className="showRigth-animate"></span></p>
+          Help Each Other, Grow Together !<span className="showRigth-animate"></span></p>
         </div>
 
         <div className="course-main-div">
@@ -248,10 +249,8 @@ const Section1 = () => {
             </div>
           </div>
 
-          
-          <a className="offer-button" href="#paymentId" >
-            <button>Register Now</button>
-          </a>
+          <Link activeClass='active' to='paymentId' spy={true} smooth={true} offset={50} duration={1000} className="offer-button"><button>Register Now</button></Link>
+         
           
         </div>
 

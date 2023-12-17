@@ -114,11 +114,12 @@ const Accordion = () => {
 
   return (
     <section className="accordion-div show-animate">
-      <div className="accordion-inner-div">
+      <div className="accordion-inner-div animate">
         <h1 className="accordion-heading">Frequently Asked Questions</h1>
+        <p >Please reach us at <a href="mailto:gururayarassociates@gmail.com">gururayarassociates@gmail.com</a> or WA NO. 9629121300 or 94896 45708 if you cannot find an answer to your question.</p>
 
         {faqData.map((faq, index) => (
-          <div key={index} className="accordion-item animate">
+          <div key={index} className="accordion-item ">
             <div
               className={`accordion-title ${
                 activeIndex === index ? "active" : ""

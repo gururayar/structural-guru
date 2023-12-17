@@ -23,13 +23,13 @@
   font-size: 30px;
   font-weight: 700;
   font-family: "Fjalla One", sans-serif;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   margin-bottom: 20px;
 }
 
 .payment-container {
   width: 100%;
-  padding: 20px 60px;
+  
   
   display: flex;
   flex-direction: column;
@@ -39,10 +39,17 @@
 .payment-method-1 {
   display: flex;
   width: 100%;
-  column-gap: 20px;
-  justify-content: center;
-  align-items: center;
   
+  flex-wrap: wrap;
+  margin: 0 auto;
+  column-gap: 20px;
+  row-gap: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding:1rem 1rem;
+  
+  
+ 
 }
 
 .basic-plan-column,
@@ -50,13 +57,14 @@
 .pro-plus-column {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content:space-evenly;
+  margin: 0 auto;
   padding: 20px;
   background-color: white;
   border: 1px solid #333;
   border-radius: 10px;
- 
-  min-height: 76vh;
+  width: 30%;
+  min-height:80vh;
   color: black;
   transition: background-color 0.5s, color 0.5s, transform 0.5s;
   box-sizing: border-box;
@@ -71,6 +79,14 @@
   }
   .plans-p{
     color: white;
+  }
+  .plans-p p{
+    color: rgb(215, 196, 154);
+  }
+  .plan-rec{
+    
+    color: black;
+    background-color: rgb(255, 251, 243);
   }
   .plans-p2{
     color: rgb(178, 176, 171);
@@ -103,10 +119,12 @@
 .basic-h1{
   display: flex;
   justify-content: space-between;
+  
 }
-.basic-h1 span{
-  margin-right: 2rem;
+.plan-rec{
+  margin:0 1rem;
   color: white;
+  text-align: center;
   background-color: black;
   padding: 10px 20px;
   border-radius:2rem;
@@ -115,9 +133,13 @@
 }
 
 .plans-p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   font-size: 16px;
   text-align: left;
   margin-bottom: 15px;
+  text-wrap: nowrap;
   
 }
 .plans-p b{
@@ -143,6 +165,12 @@
   text-align: left;
   margin-bottom: 15px;
   color: #333;
+}
+.plans-p3 {
+  
+  text-align: left;
+  margin-bottom: 15px;
+  
 }
 
 .payment-center-line {
@@ -182,6 +210,11 @@ ul.basic-plan-features li img {
   font-size: 16px;
   animation: none;
   box-shadow: none;
+  
+  
+}
+.plans-link{
+  margin-bottom: 0;
 }
 
 .plans-button:hover {
@@ -208,6 +241,7 @@ ul.basic-plan-features li img {
   color: #555;
   font-size: 21px;
   margin-bottom: 15px;
+  padding: 5px 20px;
 }
 
 
@@ -221,6 +255,55 @@ ul.basic-plan-features li img {
   border: 1px solid #ddd;
   padding: 20px;
   border-radius: 10px;
+}
+.contactPage{
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+  align-items: center;
+}
+.contactPage h1{
+  color: rgb(33, 33, 33);
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Fjalla One", sans-serif;
+  letter-spacing: 1.5px;
+  text-wrap: nowrap;
+}
+.contactform{
+  
+  margin-top: 20px;
+  width: 100%;
+  
+  column-gap: 20px;
+  row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.email,.fullname{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px 40px 10px 10px;
+  border: 1.5px solid black;
+  border-radius: 4px;
+  font-size: 16px;
+
+  letter-spacing: 1px;
+  background-color: rgb(255, 251, 243);
+  color: black;
+}
+.email:focus,.fullname:focus{
+  outline: none;
+}
+.submitbtn{
+  animation: none;
+}
+.submitbtn:hover{
+  background-color: red;
+  transform: scale(1.02);
 }
 
 @media screen and (max-width: 768px) {
@@ -240,6 +323,8 @@ ul.basic-plan-features li img {
   
   .payment-info2 {
     font-size: 18px;
+    text-align:left;
+    padding: 0;
   }
 
   .payment-link {
