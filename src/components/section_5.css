@@ -309,7 +309,7 @@ ul.basic-plan-features li img {
   transform: scale(1.02);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .sec-5 {
     padding: 50px 20px;
   }
@@ -383,7 +383,7 @@ ul.basic-plan-features li img {
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 900px) and (max-width: 1024px) {
   .basic-plan-column,
   .pro-plan-column,
   .pro-plus-column {

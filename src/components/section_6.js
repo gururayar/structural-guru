@@ -13,8 +13,7 @@ const section6 = () => {
         </h1>
         <div className="google-div animate">
           <iframe
-            width="900"
-            height="550"
+            
             src="https://www.youtube.com/embed/vFX1HXxcDKA?si=2u_EgvxoMBjL5ViR"
             title="YouTube video player"
             frameborder="0"
