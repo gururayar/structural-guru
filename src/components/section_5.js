@@ -18,10 +18,10 @@ const Section5 = () => {
   const sendEmail = () => {
     emailjs
       .sendForm(
-        "service_eff1wqj",
-        "template_dye6c68",
+        "service_5mnamig",
+        "template_sumy8vq",
         form.current,
-        "4bo8pwLC9lbwoYsrg"
+        "lTkxREBj-LHdnWv1w"
       )
       .then(
         (result) => {
