@@ -30,7 +30,7 @@
   text-align: center;
   margin-top: -10px;
   margin-bottom: 1.5rem;
-  padding: 0 50px;
+  width: 90%;
 }
 .accordion-inner-div p a{
   color: rgb(215, 196, 154);

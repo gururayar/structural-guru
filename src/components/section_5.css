@@ -122,6 +122,9 @@
   
 }
 .plan-rec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin:0 1rem;
   color: white;
   text-align: center;
@@ -355,9 +358,9 @@ ul.basic-plan-features li img {
   .plan-rec{
     margin:0;
     
-    padding: 5px 15px;
+    padding: 0 10px;
     border-radius:1rem;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 700;
   }
   

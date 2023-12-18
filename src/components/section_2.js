@@ -42,8 +42,7 @@ const Section2 = () => {
       </div>
       <div className="video-div animate">
         <iframe
-          width="900"
-          height="550"
+         
           src="https://www.youtube.com/embed/0npY5ja2xP8?autoplay=0"
           title="YouTube video player"
           frameBorder="0"
