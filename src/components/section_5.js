@@ -4,7 +4,6 @@ import "./section_5.css";
 import tick from "../assets/tick-symbol.png";
 
 const Section5 = () => {
-
   const handleSubmit = (e) => {
     e.preventDefault();
     messageSent();
@@ -36,12 +35,10 @@ const Section5 = () => {
   return (
     <section id="paymentId" className="sec-5 show-animate">
       <div className="payment-info-div">
-        <h1 className="payment-title">
-          Our Training Plans
-        </h1>
+        <h1 className="payment-title">Our Training Plans</h1>
 
         <div className="payment-container">
-          <div className="payment-method-1 animate" >
+          <div className="payment-method-1 animate">
             <div className="basic-plan-column">
               <h1 className="plans-h1 basic-h1">
                 Basic <span className="plan-rec">Recommended</span>
@@ -94,18 +91,17 @@ const Section5 = () => {
                 </li>
               </ul>
 
-              <a href="https://rzp.io/l/phBlT9OqT"
+              <a
+                href="https://rzp.io/l/phBlT9OqT"
                 target="_blank"
                 rel="noreferrer"
                 className="plans-link"
-                >
+              >
                 <button className="plans-button">Buy Now</button>
               </a>
             </div>
             <div className="pro-plan-column">
-              <h1 className="plans-h1 basic-h1">
-                Pro 
-              </h1>
+              <h1 className="plans-h1 basic-h1">Pro</h1>
 
               <div className="plans-p">
                 <b>₹ 50,000/-</b>
@@ -169,9 +165,7 @@ const Section5 = () => {
             </div>
 
             <div className="pro-plus-column">
-              <h1 className="plans-h1 basic-h1">
-                Pro Plus 
-              </h1>
+              <h1 className="plans-h1 basic-h1">Pro Plus</h1>
 
               <div className="plans-p">
                 <b>₹ 1,00,000/-</b>
@@ -242,48 +236,43 @@ const Section5 = () => {
           <div className="payment-method-2 animate">
             <p className="payment-info2">
               You can also pay directly to UPI Gpay/PhonePe/Paytm no.
-              9629121300. <b className="font-bold-payment">IMPORTANT:</b> After payment send receipt & gmail id to WhatsApp no.{" "}
+              9629121300. <b className="font-bold-payment">IMPORTANT:</b> After
+              payment send receipt & gmail id to WhatsApp no.{" "}
               <b className="font-bold-payment">+91-9629121300</b>. We will
               dispatch the course contents to your gmail id and google drive.
             </p>
           </div>
 
           <div className="contactPage">
+            <h1 className="contactPageTitle">For more updates, Subscribe </h1>
 
-          <h1 className="contactPageTitle">For more updates, Subscribe </h1>
-        
-        <form
-          className="contactform animate"
-          ref={form}
-          onSubmit={handleSubmit}
-        >
-         
-          <input
-            type="email"
-            className="email"
-            placeholder="Your Email"
-            name="from_email"
-            required
-          />
-          <input
-            type="tel"
-            id="phoneNumber"
-            placeholder="Your WhatsApp Number"
-            className="fullname"
-            name="phoneNumber"
-            pattern="[0-9]{10}"
-            required
-          />
-          {" "}
-          <br />
-          <button type="submit" value="Send" className="submitbtn">
-            Subscribe
-          </button>
-        </form>
-
-
+            <form
+              className="contactform animate"
+              ref={form}
+              onSubmit={handleSubmit}
+            >
+              <input
+                type="email"
+                className="email"
+                placeholder="Your Email"
+                name="from_email"
+                required
+              />
+              <input
+                type="tel"
+                id="phoneNumber"
+                placeholder="Your WhatsApp Number"
+                className="fullname"
+                name="phoneNumber"
+                pattern="[0-9]{10}"
+                required
+              />{" "}
+              <br />
+              <button type="submit" value="Send" className="submitbtn">
+                Subscribe
+              </button>
+            </form>
           </div>
-
         </div>
       </div>
     </section>

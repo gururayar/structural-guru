@@ -97,9 +97,17 @@
   .more-content-div {
     width: 100%;
     text-align: center;
+    margin-top: 0;
   }
   .brochureImg-div{
     width: 100%;
   
+  }
+  .more-content1 {
+    font-size: 28px;
+    
+    margin-top: 0;
+   
+    padding: 20px 0;
   }
 }

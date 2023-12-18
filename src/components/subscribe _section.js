@@ -5,9 +5,9 @@ import "./subscribe_section.css";
 const Subscribe = () => {
   return (
     <section className="official-web">
-      <h1>CONTACT US</h1>
+      <h1 className="web-h1">CONTACT US</h1>
       <div className="web-div">
-        <h3>OUR HEAD OFFICE IN TAMILNADU</h3>
+        <h3 className="web-h3">OUR HEAD OFFICE IN TAMILNADU</h3>
 
         <p className="contact-p1">StructuralGuru-GURURYAR ASSOCIATES</p>
         <p className="contact-p2">D-54, 2nd Floor, Trichy Coworks, 9th A Cross, Thillai Nagar, Tiruchirappalli, Tamil Nadu 620018, INDIA.</p>
@@ -29,7 +29,7 @@ const Subscribe = () => {
           <button className="whatsappButton"><img src={whatsappLogo} alt="whatsappLogo" />MESSAGE TO CUSTOMER CARE</button>
         </a>
        
-        <p className="contact-p3" >Mobile No. 9629121300 (For Whatsapp calls also) (GOVT. REGISTERED NO: TN27D0018377)<br/> Email: <a className="contact-a" href="mailto:admin@gururayarassociates.com">admin@gururayarassociates.com</a> , <a className="contact-a" href="mailto:gururayarassociates@gmail.com">gururayarassociates@gmail.com</a></p>
+        <p className="contact-p3" >Mobile No. <a className="contact-a" href="tel:9629121300">9629121300</a> (For Whatsapp calls also) (GOVT. REGISTERED NO: TN27D<a className="contact-a" href="tel:0018377">0018377</a>)<br/> Email: <a className="contact-a" href="mailto:admin@gururayarassociates.com">admin@gururayarassociates.com</a> , <a className="contact-a" href="mailto:gururayarassociates@gmail.com">gururayarassociates@gmail.com</a></p>
         <p className="contact-p1">Just Message in Whatsapp for appointment before to call or visit our office. Thanks!</p>
       </div>
     </section>
