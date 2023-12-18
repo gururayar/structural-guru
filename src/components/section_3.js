@@ -150,7 +150,7 @@ const section3 = () => {
           </li>
         </ul>
       </div>
-      <div className="more-content-div">
+      <div className="more-content-div animate">
         <h1 className="more-content1">Download the complete Course Brochure</h1>
         <div className="brochureImg-div">
           <img src={broucherImg} alt="broucherImg" className="brochure-img" />

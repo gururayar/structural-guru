@@ -57,12 +57,7 @@
   row-gap: 1rem;
   
   /* background-color: rgb(215, 196, 154); */
-  background: linear-gradient(
-    89deg,
-    rgb(21, 74, 189) 0.1%,
-    rgb(26, 138, 211) 51.5%,
-    rgb(72, 177, 234) 100.2%
-  );
+  
   color: black;
   width: 70%;
   

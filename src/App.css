@@ -94,6 +94,12 @@ section.show-animate .animate{
 .sec-3.show-animate ul li{
   transform: scale(1);
 }
+.sec-3 .more-content-div{
+  transform: translateY(10%);
+}
+.sec-3.show-animate .more-content-div{
+  transform: translateY(0);
+}
 
 .sec-4 ul{
   transform: translateY(10%);

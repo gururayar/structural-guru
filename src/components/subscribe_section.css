@@ -1,64 +1,120 @@
 .official-web{
   width: 100%;
-  height: 80vh;
+  
   padding: 40px 80px;
+  margin-bottom: 15rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
-.web-div h1{
+.official-web h1{
+  padding: 1rem 1rem 2rem 1rem;
+  letter-spacing:2px ;
+}
+.official-web h1,.official-web h3{
   color: goldenrod;
   font-family: "Fjalla One", sans-serif;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1.5px;
+  
+}
+.contact-a{
+  text-decoration: none;
+  color: rgb(215, 196, 154);
+}
+.contact-a:hover{
+  text-decoration:underline;
+  
 }
 .web-div{
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   background-color: black;
   border-radius: 1rem;
   border: 1px solid rgb(255, 199, 0);
   padding: 4rem 2rem 4rem 2rem;
   width: 90%;
-  height: 50vh;
+  min-height:80vh;
   text-align: center;
   box-shadow: rgba(53, 51, 48, 0.48) 0px 0px 50px 2px;
   
 }
-.web-div button{
-  animation: none;
-  padding: 15px 30px;
+.contact-p1{
+  color: rgb(215, 196, 154);
   font-size: 18px;
+
+
+}
+.contact-p2{
+  color: rgb(255, 251, 243);
+  padding: 1rem;
+}
+.contact-loc{
+  margin-bottom:1.5rem ;
+}
+.contact-p3{
+  margin-bottom: 1rem;
+}
+.whatsappButton{
+  animation: none;
+  display: flex;
+  justify-content: space-between;
+  text-wrap: nowrap;
+  align-items: center;
+  column-gap: 10px;
+  width: 100%;
+  margin: 1.5rem auto;
+ 
+
+  
+}
+.contact-a2{
+  text-decoration: none;
+}
+.whatsappButton:hover{
+  text-decoration: none;
+}
+.whatsappButton img{
+  width: 100%;
+  height: 30px;
+  object-fit: cover;
 }
 .web-div button:hover{
   background-color: red;
   transform: scale(1.02);
 }
+body{
+  margin-bottom: 1000px;
+}
 @media screen and (max-width: 768px){
   .official-web{
-    padding:0 10px;
-    height: 60vh;
+    padding:0 20px;
+   
     
+  }
+  .official-web h1{
+    padding-top: 2rem;
   }
   .web-div h1{
     font-size: 20px;
+   
   }
   .web-div{
-    margin-top: -6rem;
-    padding:0 1rem;
-    width: 90%;
-    height: 30vh;
+    
+    
+    width: 100%;
+   
     text-align: center;
     box-shadow: rgba(53, 51, 48, 0.48) 0px 0px 50px 2px;
     
   }
   .web-div button{
-    width: 70%;
-    padding: 15px 20px;
+  
+    padding: 15px 8px;
     font-size: 16px;
   }
 }
