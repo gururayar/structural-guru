@@ -253,7 +253,7 @@ const Section5 = () => {
           </div>
 
           <div className="contactPage">
-            <h1 className="contactPageTitle">For more updates, Subscribe </h1>
+            <h1 className="contactPageTitle">For more offers, Subscribe </h1>
 
             <form
               className="contactform animate"
