@@ -57,6 +57,7 @@
   row-gap: 1rem;
   color: black;
   width: 70%;
+  
   margin-top: 4rem;
   padding: 16px;
   border-radius: 0.7rem;
@@ -77,14 +78,20 @@
 }
 
 .brochureImg-div{
-  width: 80%;
+  width: 100%;
 
 }
 .brochure-img{
   width: 100%;
+  
   object-fit: cover;
 }
-
+.pricing-btn{
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (max-width: 900px) {
   .feature-list {
     width: 100%;
@@ -94,6 +101,7 @@
     width: 100%;
     text-align: center;
     margin-top: 0;
+    padding: 0;
   }
   .brochureImg-div{
     width: 100%;
