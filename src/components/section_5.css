@@ -287,7 +287,7 @@ ul.basic-plan-features li img {
   padding: 20px;
   border-radius: 10px;
 }
-.contactPage{
+/* .contactPage{
   margin-top: 6rem;
   display: flex;
   flex-direction: column;
@@ -336,7 +336,7 @@ ul.basic-plan-features li img {
 .submitbtn:hover{
   background-color: red;
   transform: scale(1.02);
-}
+} */
 
 @media screen and (max-width: 900px) {
   .sec-5 {
@@ -397,19 +397,19 @@ ul.basic-plan-features li img {
   .font-bold-payment {
     font-size: 18px;
   }
-  .contactPage{
+  /* .contactPage{
     margin-top: 3rem;
     padding: 10px 10px;
     
   
-  }
-  .contactPage h1{
+  } */
+  /* .contactPage h1{
     color: rgb(33, 33, 33);
    
     font-size: 28px;
     
     text-wrap: wrap;
-  }
+  } */
   .pro-plan-mode b{
     font-size: 1.1em;
    
