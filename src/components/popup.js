@@ -44,7 +44,7 @@ const Popupopen = () => {
             <img src={close} alt="close-button" />
         </button>
         <h1 className="contactPageTitle">
-          Please fill out the form.{" "}
+          Please fill out the form and submit to get <span>FREE course</span>
         </h1>
 
         <form className="contactform"  onSubmit={handleSubmit}>

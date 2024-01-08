@@ -29,13 +29,18 @@
     border-radius: 1rem;
   }
   .contactPage h1{
+   
     color: white;
     text-align: center;
     font-size: 20px;
     font-weight: 700;
     font-family: "Fjalla One", sans-serif;
     letter-spacing: 1.5px;
+    width: 90%
    
+  }
+  .contactPage span{
+    color: goldenrod;
   }
   .contactform{
     
@@ -98,7 +103,11 @@
     animation: none;
     box-shadow: none;
     padding: 0;
+    
 
+  }
+  .close-btn:hover{
+    background-color:red;
   }
   .close-btn img{
     width: 30px;
@@ -115,11 +124,13 @@
     }
     
   .contactPage h1{
-    font-size: 18px;
+    font-size: 14px;
+    width: 80%;
   }
   .contactform{
     width: 100%;
   }
+  
     
 }
   
