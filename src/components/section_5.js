@@ -1,37 +1,38 @@
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+import React from "react";
+// import emailjs from "@emailjs/browser";
 import "./section_5.css";
 import tick from "../assets/tick-symbol.png";
 
-const Section5 = () => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    messageSent();
-    sendEmail();
-    e.target.reset();
-  };
-  const messageSent = () => {
-    window.alert("Subscribed Successfully ! ");
-  };
 
-  const form = useRef();
-  const sendEmail = () => {
-    emailjs
-      .sendForm(
-        "service_5mnamig",
-        "template_sumy8vq",
-        form.current,
-        "lTkxREBj-LHdnWv1w"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+const Section5 = () => {
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   messageSent();
+  //   sendEmail();
+  //   e.target.reset();
+  // };
+  // const messageSent = () => {
+  //   window.alert("Subscribed Successfully ! ");
+  // };
+
+  // const form = useRef();
+  // const sendEmail = () => {
+  //   emailjs
+  //     .sendForm(
+  //       "service_5mnamig",
+  //       "template_sumy8vq",
+  //       form.current,
+  //       "lTkxREBj-LHdnWv1w"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // };
   return (
     <section id="paymentId" className="sec-5 show-animate">
       <div className="payment-info-div">
@@ -243,7 +244,7 @@ const Section5 = () => {
             </p>
           </div>
 
-          <div className="contactPage">
+          {/* <div className="contactPage">
             <h1 className="contactPageTitle">For more offers, Subscribe </h1>
 
             <form
@@ -272,7 +273,7 @@ const Section5 = () => {
                 Subscribe
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
