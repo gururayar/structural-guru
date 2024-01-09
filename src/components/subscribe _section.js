@@ -27,7 +27,7 @@ const Subscribe = () => {
         <p className="contact-p1">StructuralGuru</p>
         <p className="contact-p2">
           No 31, Navodaya layout, shakamarinagar, JP nagar, 1st phase,
-          Banashankari, Bangalore - 560078
+          Banashankari, Bangalore - 560078.
         </p>
         <a
           href="https://maps.app.goo.gl/MRgBnLT2QpL1kkF96"
